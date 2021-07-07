@@ -10,7 +10,7 @@ scoreboard objectives add acbag.light_dmg dummy
 scoreboard objectives add acbag.useBow minecraft.used:minecraft.bow
 scoreboard objectives add acbag.useCbow minecraft.used:minecraft.crossbow
 scoreboard objectives add acbag.openBundle minecraft.used:minecraft.bundle
-scoreboard objectives add acbag.death deathCount
+scoreboard objectives add acbag.wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
 
 scoreboard players set acbag.vs_fix acbag.dummy 1 
 scoreboard players set acbag.const.-1 acbag.dummy -1

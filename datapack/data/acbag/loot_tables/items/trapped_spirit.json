@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900013,HideFlags:127,ctc:{id:\"trapped_spirit\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.trapped_spirit",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

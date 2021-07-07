@@ -18,6 +18,8 @@
     {"predicate": {"custom_model_data": 6900009},"model": "acbag:item/faraday_jewel"},
     {"predicate": {"custom_model_data": 6900010},"model": "acbag:item/anima_conduit"},
     {"predicate": {"custom_model_data": 6900011},"model": "acbag:item/crystal_heart"},
-    {"predicate": {"custom_model_data": 6900012},"model": "acbag:item/firecracker"}
+    {"predicate": {"custom_model_data": 6900012},"model": "acbag:item/firecracker"},
+    {"predicate": {"custom_model_data": 6900013},"model": "acbag:item/trapped_spirit"},
+    {"predicate": {"custom_model_data": 6900014},"model": "acbag:item/protoplasm"}
 ]
 }
