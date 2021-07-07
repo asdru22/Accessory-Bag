@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "acbag:entity/molten_skeleton/arm_right",
+		"particle": "acbag:entity/molten_skeleton/arm_right"
+	},
+	"elements": [
+		{
+			"from": [7, 5, 8],
+			"to": [9, 7, 20],
+			"faces": {
+				"north": {"uv": [15, 15, 16, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [15, 15, 16, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15, 15, 16, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 7, 12, 9], "texture": "#0"},
+				"up": {"uv": [15, 15, 16, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15, 15, 16, 16], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.125, -0.15],
+			"scale": [1.01, 1.01, 1.01]
+		}
+	}
+}

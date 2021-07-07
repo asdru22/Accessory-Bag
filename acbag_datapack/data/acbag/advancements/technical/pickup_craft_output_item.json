@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{acbag:{CraftOutput:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:block/thinkery_table/crafting/pick_crafting_item"
+  }
+}

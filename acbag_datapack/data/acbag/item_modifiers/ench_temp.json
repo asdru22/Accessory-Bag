@@ -1,0 +1,25 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "nbt": "root.temp.ench[0].display",
+          "storage": "veh:storage",
+          "interpret": true,
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "nbt": "root.temp.ench[0].lvl",
+          "storage": "veh:storage"
+        }
+      ]
+    ],
+    "replace": true
+  }
+]

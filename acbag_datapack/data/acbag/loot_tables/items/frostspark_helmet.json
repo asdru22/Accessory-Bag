@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.max_health",
+              "name": "",
+              "amount": {
+                "min": 0.5,
+                "max": 1
+              },
+              "operation": "addition",
+              "slot": "head"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{display:{color:14859489},Unbreakable:1b,HideFlags:64,CustomModelData:6900000,ctc:{id:\"frostspark_helmet\",from:\"asdru:accessory_bag\",traits:{\"armor/helmet\":1b}},acbag:{identifier:1b}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.frostspark_helmet",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

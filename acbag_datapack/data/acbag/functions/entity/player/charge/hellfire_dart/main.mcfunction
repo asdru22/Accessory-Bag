@@ -1,0 +1,1 @@
+tag @s add acbag.ticking.acc.hellfire_dart

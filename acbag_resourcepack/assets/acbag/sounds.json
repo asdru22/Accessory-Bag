@@ -1,0 +1,10 @@
+{
+    "item.whip.hit": {
+      "sounds": [{
+        "name": "awh:item/whip_normal",
+        "stream": true
+      }],
+      "subtitle": "subtitles.awh.item.whip.hit",
+      "category": "master"
+    }
+}

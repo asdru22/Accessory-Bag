@@ -1,0 +1,1 @@
+execute as @e[type=arrow,tag=acbag.firecracker.arrow] run function acbag:entity/player/on_hit/acc/firecracker/stand

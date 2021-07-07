@@ -1,0 +1,40 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "veh:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.durability",
+        "with": [
+          {
+            "score": {
+              "name": "veh.durability",
+              "objective": "veh.dummy"
+            }
+          },
+          {
+            "nbt": "root.temp.item.tag.ctc.tool.durability",
+            "storage": "veh:storage"
+          }
+        ],
+        "color": "white",
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

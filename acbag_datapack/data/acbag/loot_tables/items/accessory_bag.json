@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6900000,ctc:{from:\"asdru:accessory_bag\",id:\"accessory_bag\"}}"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.accessory_bag",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "pick_up_accessory_bag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "acbag:item/accessory_bag/update"
+  }
+}

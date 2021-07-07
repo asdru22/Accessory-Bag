@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "italic": false,
+              "color": "gray",
+              "with": [
+                {
+                  "text": "4",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.feral_claws.lore1",
+              "italic": false,
+              "color": "white"
+            },
+            {
+              "translate": "item.acbag.feral_claws.lore2",
+              "italic": false,
+              "color": "white"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900003,HideFlags:127,ctc:{id:\"feral_claws\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:4,trigger:\"On Hit\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.feral_claws",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

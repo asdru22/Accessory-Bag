@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/stick"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 6900000},"model": "acbag:entity/molten_skeleton/left_arm"},
+    {"predicate": {"custom_model_data": 6900001},"model": "acbag:entity/molten_skeleton/right_arm"},
+    {"predicate": {"custom_model_data": 6900002},"model": "acbag:entity/molten_skeleton/head"},
+    {"predicate": {"custom_model_data": 6900003},"model": "acbag:entity/bandit/head"}
+]
+}

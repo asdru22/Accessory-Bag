@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:block/template_command_block",
+  "textures": {
+    "front": "minecraft:block/repeating_command_block_front",
+    "back": "minecraft:block/repeating_command_block_back",
+    "side": "minecraft:block/repeating_command_block_side"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 6900000},"model": "acbag:item/superconductor"},
+    {"predicate": {"custom_model_data": 6900001},"model": "acbag:item/enchanted_string"},
+    {"predicate": {"custom_model_data": 6900002},"model": "acbag:item/hellfire_dart"},
+    {"predicate": {"custom_model_data": 6900003},"model": "acbag:item/feral_claws"},
+    {"predicate": {"custom_model_data": 6900004},"model": "acbag:item/celestial_crystal"},
+    {"predicate": {"custom_model_data": 6900005},"model": "acbag:item/soulbound_trinket"},
+    {"predicate": {"custom_model_data": 6900006},"model": "acbag:item/scroll_of_containment"},
+    {"predicate": {"custom_model_data": 6900007},"model": "acbag:item/bracelet"},
+    {"predicate": {"custom_model_data": 6900008},"model": "acbag:item/ring"},
+    {"predicate": {"custom_model_data": 6900009},"model": "acbag:item/faraday_jewel"},
+    {"predicate": {"custom_model_data": 6900010},"model": "acbag:item/anima_conduit"},
+    {"predicate": {"custom_model_data": 6900011},"model": "acbag:item/crystal_heart"},
+    {"predicate": {"custom_model_data": 6900012},"model": "acbag:item/firecracker"}
+]
+}

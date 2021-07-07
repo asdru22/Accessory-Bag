@@ -1,0 +1,15 @@
+{
+  "parent": "acbag:recipes/nbt/root",
+  "rewards": {
+    "function": "acbag:entity/player/nbt_recipe",
+    "loot": ["acbag:items/thinkery_table"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "acbag:nbt/thinkery_table"
+      }
+    }
+  }
+}

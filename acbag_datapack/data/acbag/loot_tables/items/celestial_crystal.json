@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "with": [
+                {
+                  "text": "5",
+                  "color": "light_purple"
+                }
+              ],
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.celestial_crystal.lore1",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.celestial_crystal.lore2",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900004,Enchantments:[{}],ctc:{id:\"celestial_crystal\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:5,trigger:\"Second\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.celestial_crystal",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

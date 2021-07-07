@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "FCF",
+        " R "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_torch"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        },
+        "C": {
+            "item": "minecraft:crafting_table"
+        },
+        "R": {
+            "item": "minecraft:red_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

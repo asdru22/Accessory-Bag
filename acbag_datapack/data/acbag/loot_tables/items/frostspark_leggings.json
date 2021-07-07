@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.max_health",
+              "name": "",
+              "amount": {
+                "min": 1,
+                "max": 1.5
+              },
+              "operation": "addition",
+              "slot": "legs"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{display:{color:14859489},Unbreakable:1b,HideFlags:64,CustomModelData:6900000,ctc:{id:\"frostspark_leggings\",from:\"asdru:accessory_bag\",traits:{\"armor/leggings\":1b}},acbag:{identifier:1b}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.frostspark_leggings",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

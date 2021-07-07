@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "nbt": "{ctc:{id:\"adaptive_blade\",from:\"asdru:accessory_bag\"}}"
+      }
+    }
+  }
+}

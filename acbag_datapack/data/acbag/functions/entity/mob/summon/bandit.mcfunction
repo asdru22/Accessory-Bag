@@ -1,0 +1,1 @@
+summon vindicator ~ ~ ~ {Health:30f,CustomName:'{"translate":"entity.acbag.bandit"}',Tags:["acbag.entity.bandit"],HandItems:[{id:"minecraft:iron_sword",Count:1b},{}],ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:6900003}}],Attributes:[{Name:generic.max_health,Base:30}]}

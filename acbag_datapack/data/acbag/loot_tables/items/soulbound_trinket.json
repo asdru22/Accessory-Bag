@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "with": [
+                {
+                  "text": "4",
+                  "color": "red"
+                }
+              ],
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.soulbound_trinket.lore1",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.soulbound_trinket.lore2",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900005,HideFlags:127,ctc:{id:\"soulbound_trinket\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:4,trigger:\"Death\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.soulbound_trinket",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

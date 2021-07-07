@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/item_frame"
+  },
+  "overrides": [
+    {
+    "predicate": {
+      "custom_model_data": 6900000
+    },
+    "model": "acbag:block/thinkery_table"
+  }
+]
+}

@@ -1,0 +1,2 @@
+execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"ender_beacon",from:"asdru:accessory_bag"}} at @s if predicate acbag:in_the_end run function acbag:entity/player/charge/ender_beacon/main
+execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"hellfire_dart",from:"asdru:accessory_bag"}} at @s if predicate acbag:in_the_nether run function acbag:entity/player/charge/hellfire_dart/main

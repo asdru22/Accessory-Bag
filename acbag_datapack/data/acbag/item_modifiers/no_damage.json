@@ -1,0 +1,18 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "pack.veh",
+        "color": "#0EB294",
+        "italic": false
+      }
+    ],
+    "replace": false
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Damage:0}"
+  }
+]

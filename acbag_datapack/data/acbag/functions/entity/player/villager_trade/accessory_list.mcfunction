@@ -1,0 +1,1 @@
+execute if predicate acbag:chance/25 if data storage acbag:storage root.temp.bag{tag:{ctc:{id:"villager_sigil",from:"asdru:accessory_bag"}}} at @s run loot spawn ~ ~ ~ loot minecraft:blocks/emerald_ore

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "click_forge": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": ["minecraft:barrel"],
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"acbag:table\",\"translate\":\"block.acbag.thinkery_table.gui\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.acbag.thinkery_table\"}]}'}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:block/thinkery_table/enter_gui"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "nbt": "root.temp.item.tag.veh.Enchantments[].id",
+        "storage": "veh:storage",
+        "interpret": true,
+        "separator": "\n",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "italic": false,
+              "color": "gray",
+              "with": [
+                {
+                  "text": "2",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.crystal_heart.lore",
+              "italic": false,
+              "color": "white"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900011,HideFlags:127,ctc:{id:\"crystal_heart\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:2,trigger:\"Second\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.crystal_heart",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

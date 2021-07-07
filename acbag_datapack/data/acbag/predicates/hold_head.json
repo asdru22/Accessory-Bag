@@ -1,0 +1,61 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:player_head"
+            ],
+            "nbt": "{acbag:{identifier:1b}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:player_head"
+            ],
+            "nbt": "{acbag:{identifier:1b}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:oak_sign"
+            ],
+            "nbt": "{acbag:{identifier:1b}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:oak_sign"
+            ],
+            "nbt": "{acbag:{identifier:1b}}"
+          }
+        }
+      }
+    }
+  ]
+}

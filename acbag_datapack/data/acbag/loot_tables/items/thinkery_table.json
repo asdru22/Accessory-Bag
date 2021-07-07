@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{Invisible:1b,Tags:[\"acbag.thinkery_table\"]},CustomModelData:6900000,display:{Name:'{\"translate\":\"block.acbag.thinkery_table\",\"italic\":false}'},ctc:{id:\"thinkery_table\",from:\"asdru:accessory_bag\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

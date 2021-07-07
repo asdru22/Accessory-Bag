@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "acbag:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.held_head.tag",
+                  "target": "{}",
+                  "op": "merge"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "bit0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_lightning": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/player/when_hit/lightning"
+  }
+}

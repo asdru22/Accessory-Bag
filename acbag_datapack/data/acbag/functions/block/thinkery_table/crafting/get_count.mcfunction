@@ -1,0 +1,9 @@
+execute store result score $slot2 acbag.dummy run data get storage acbag:storage root.temp.Table[{Slot:2b}].Count
+execute store result score $slot3 acbag.dummy run data get storage acbag:storage root.temp.Table[{Slot:3b}].Count
+execute store result score $slot4 acbag.dummy run data get storage acbag:storage root.temp.Table[{Slot:4b}].Count
+execute store result score $slot11 acbag.dummy run data get storage acbag:storage root.temp.Table[{Slot:11b}].Count
+execute store result score $slot12 acbag.dummy run data get storage acbag:storage root.temp.Table[{Slot:12b}].Count
+execute store result score $slot13 acbag.dummy run data get storage acbag:storage root.temp.Table[{Slot:13b}].Count
+execute store result score $slot20 acbag.dummy run data get storage acbag:storage root.temp.Table[{Slot:20b}].Count
+execute store result score $slot21 acbag.dummy run data get storage acbag:storage root.temp.Table[{Slot:21b}].Count
+execute store result score $slot22 acbag.dummy run data get storage acbag:storage root.temp.Table[{Slot:22b}].Count

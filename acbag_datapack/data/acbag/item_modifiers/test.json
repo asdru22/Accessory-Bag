@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Items:[{id:\"minecraft:stone\",Count:1b}]}"
+  }
+]

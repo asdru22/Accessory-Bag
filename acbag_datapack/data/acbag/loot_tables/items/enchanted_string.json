@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "italic": false,
+              "color": "gray",
+              "with": [
+                {
+                  "text": "2",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.enchanted_string.lore",
+              "italic": false,
+              "color": "white"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900001,HideFlags:127,ctc:{id:\"enchanted_string\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:2,trigger:\"On Bow Shot\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.enchanted_string",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

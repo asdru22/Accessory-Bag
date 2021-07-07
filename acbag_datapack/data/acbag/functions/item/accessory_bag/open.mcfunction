@@ -1,0 +1,2 @@
+scoreboard players reset @s acbag.openBundle
+execute if entity @e[type=item,nbt={Age:0s,Item:{tag:{ctc:{id:"scroll_of_containment",from:"asdru:accessory_bag"}}}}] run function acbag:item/accessory_bag/scroll_of_containment/init

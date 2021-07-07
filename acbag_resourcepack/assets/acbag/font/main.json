@@ -1,0 +1,15 @@
+{
+  "providers": [
+  {
+    "type": "bitmap",
+    "file": "acbag:font/astrolite.png",
+    "ascent": 8,
+    "height": 16,
+    "chars": [
+        "\u000a"
+    ]
+}
+  ]
+}
+
+

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "charge_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:trident",
+            "minecraft:crossbow",
+            "minecraft:bow"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/player/charge/charging_shot"
+  }
+}

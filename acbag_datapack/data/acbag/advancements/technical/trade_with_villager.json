@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/player/villager_trade/main"
+  }
+}

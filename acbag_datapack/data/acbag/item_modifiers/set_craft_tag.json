@@ -1,0 +1,4 @@
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{acbag:{CraftOutput:1b,GuiFixed:1b}}"
+  }

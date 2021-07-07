@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "italic": false,
+              "color": "gray",
+              "with": [
+                {
+                  "text": "2",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.superconductor.lore1",
+              "italic": false,
+              "color": "white"
+            },
+            {
+              "translate": "item.acbag.superconductor.lore2",
+              "italic": false,
+              "color": "white"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900000,HideFlags:127,ctc:{id:\"superconductor\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:2,trigger:\"When Hit\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.superconductor",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

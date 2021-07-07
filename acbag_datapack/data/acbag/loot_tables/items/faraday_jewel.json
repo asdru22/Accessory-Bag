@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "with": [
+                {
+                  "text": "3",
+                  "color": "gold"
+                }
+              ],
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.faraday_jewel.lore1",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.faraday_jewel.lore2",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.faraday_jewel.lore3",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.faraday_jewel.lore4",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900009,HideFlags:127,ctc:{id:\"faraday_jewel\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:3,trigger:\"Other\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.faraday_jewel",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

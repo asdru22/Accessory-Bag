@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "rewards": {
+      "function": "acbag:entity/player/setup"
+    }
+  }
+  

@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " ",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "veh.attribute_u",
+            "objective": "veh.dummy"
+          }
+        },
+        {
+          "text": "."
+        },
+        {
+          "score": {
+            "name": "veh.attribute_d",
+            "objective": "veh.dummy"
+          }
+        },
+        {
+          "text": " "
+        },
+        {
+          "nbt": "root.temp.modifiers[0].display",
+          "storage": "veh:storage",
+          "interpret": true
+        }
+      ]
+    ],
+    "replace": true
+  }
+]

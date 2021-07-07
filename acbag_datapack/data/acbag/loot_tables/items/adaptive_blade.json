@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6900001,ctc:{from:\"asdru:accessory_bag\",id:\"adaptive_blade\"}}"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.attack_speed",
+              "name": "",
+              "amount": -2.4,
+              "operation": "addition",
+              "slot": "mainhand"
+            },
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "name": "",
+              "amount": 3,
+              "operation": "addition",
+              "slot": "mainhand"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.adaptive_blade",
+            "italic": false,
+            "color": "yellow"
+          }
+        }
+      ]
+    }
+  ]
+}

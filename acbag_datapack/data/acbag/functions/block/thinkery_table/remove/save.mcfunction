@@ -1,0 +1,2 @@
+execute at @p[tag=acbag.inside_table_gui] run summon item ~ ~ ~ {Item:{Count:1b,id:"stone",tag:{acbag:{temp:1b}}}}
+data modify entity @e[type=item,limit=1,nbt={Item:{tag:{acbag:{temp:1b}}}}] Item set from storage acbag:storage root.temp.remove

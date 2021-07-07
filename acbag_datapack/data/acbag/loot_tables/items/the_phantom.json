@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900000,ctc:{id:\"the_phantom\",from:\"asdru:accessory_bag\",traits:{\"weapon/bow\":1b}},acbag:{identifier:1b}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.the_phantom",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

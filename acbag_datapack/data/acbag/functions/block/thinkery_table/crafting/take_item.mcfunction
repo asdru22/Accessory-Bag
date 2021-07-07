@@ -1,0 +1,1 @@
+execute if entity @s[scores={acbag.dummy2=1..}] run function acbag:block/thinkery_table/crafting/take_output
