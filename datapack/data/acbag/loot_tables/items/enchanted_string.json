@@ -35,7 +35,7 @@
         },
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:6900001,HideFlags:127,ctc:{id:\"enchanted_string\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:2,trigger:\"On Bow Shot\"}}}"
+          "tag": "{Enchantments:[{}],CustomModelData:6900001,HideFlags:127,ctc:{id:\"enchanted_string\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:2,trigger:\"On Bow Shot\"}}}"
         },
         {
           "function": "minecraft:set_name",
