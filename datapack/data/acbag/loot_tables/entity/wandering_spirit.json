@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "quality": 1,
+          "name": "acbag:items/eternal_tear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 8,
+          "name": "acbag:items/star_dial"
+        }
+      ]
+    }
+  ]
+}

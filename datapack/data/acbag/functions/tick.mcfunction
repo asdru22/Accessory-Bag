@@ -1,8 +1,7 @@
-execute as @e[type=#acbag:mobs] run function acbag:entity/mob/tick
-execute as @e[type=glow_item_frame,tag=acbag.thinkery_table] at @s run function acbag:block/thinkery_table/tick
+execute at @a as @e[type=#acbag:entity,distance=..50] run function acbag:entity/tick
 
-execute as @a[gamemode=adventure,predicate=!acbag:hold_head,tag=acbag.head] run gamemode survival @s
-execute as @a[gamemode=survival,predicate=acbag:hold_head] run function acbag:entity/player/player_head
+execute as @a[gamemode=adventure,predicate=!acbag:hold_head,tag=acbag.head] run function acbag:entity/player/actions/player_head/surv
+execute as @a[gamemode=survival,predicate=acbag:hold_head] run function acbag:entity/player/actions/player_head/adv
 
 
 execute as @a[scores={acbag.useBow=1..}] run function acbag:entity/player/shoot/main

@@ -1,0 +1,7 @@
+{
+	"description": "All mob entities",
+	"values": [
+		"#acbag:mobs",
+		"#acbag:technical"
+	]
+}

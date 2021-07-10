@@ -1,10 +1,10 @@
 {
-    "item.whip.hit": {
+    "entity.wandering_soul.when_hit": {
       "sounds": [{
-        "name": "awh:item/whip_normal",
+        "name": "acbag:entity/wandering_soul/when_hit",
         "stream": true
       }],
-      "subtitle": "subtitles.awh.item.whip.hit",
+      "subtitle": "subtitles.acbag.entity.wandering_soul.when_hit",
       "category": "master"
     }
 }

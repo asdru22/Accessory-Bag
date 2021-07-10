@@ -20,6 +20,11 @@
     {"predicate": {"custom_model_data": 6900011},"model": "acbag:item/crystal_heart"},
     {"predicate": {"custom_model_data": 6900012},"model": "acbag:item/firecracker"},
     {"predicate": {"custom_model_data": 6900013},"model": "acbag:item/trapped_spirit"},
-    {"predicate": {"custom_model_data": 6900014},"model": "acbag:item/protoplasm"}
+    {"predicate": {"custom_model_data": 6900014},"model": "acbag:item/protoplasm"},
+    {"predicate": {"custom_model_data": 6900015},"model": "acbag:item/___"},
+    {"predicate": {"custom_model_data": 6900016},"model": "acbag:item/eternal_tear"},
+    {"predicate": {"custom_model_data": 6900017},"model": "acbag:item/ambrosia"},
+    {"predicate": {"custom_model_data": 6900018},"model": "acbag:item/gleaming_thread"},
+    {"predicate": {"custom_model_data": 6900019},"model": "acbag:item/gleamerite"}
 ]
 }

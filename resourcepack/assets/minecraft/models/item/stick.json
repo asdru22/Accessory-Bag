@@ -7,6 +7,12 @@
     {"predicate": {"custom_model_data": 6900000},"model": "acbag:entity/molten_skeleton/left_arm"},
     {"predicate": {"custom_model_data": 6900001},"model": "acbag:entity/molten_skeleton/right_arm"},
     {"predicate": {"custom_model_data": 6900002},"model": "acbag:entity/molten_skeleton/head"},
-    {"predicate": {"custom_model_data": 6900003},"model": "acbag:entity/bandit/head"}
+    {"predicate": {"custom_model_data": 6900003},"model": "acbag:entity/bandit/head"},
+    {"predicate": {"custom_model_data": 6900004},"model": "acbag:entity/wandering_soul/main"},
+    {"predicate": {"custom_model_data": 6900005},"model": "acbag:entity/wandering_soul/hurt"},
+    {"predicate": {"custom_model_data": 6900006},"model": "acbag:entity/shrigma_zombie/head"},
+    {"predicate": {"custom_model_data": 6900007},"model": "acbag:entity/shrigma_zombie/right_arm"},
+    {"predicate": {"custom_model_data": 6900008},"model": "acbag:entity/shrigma_zombie/left_arm"},
+    {"predicate": {"custom_model_data": 6900009},"model": "acbag:entity/growing_lichen"}    
 ]
 }

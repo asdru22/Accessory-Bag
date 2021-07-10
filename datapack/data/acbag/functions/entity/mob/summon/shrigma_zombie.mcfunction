@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {HandItems:[{id:'minecraft:stick',Count:1b,tag:{CustomModelData:6900007}},{id:'minecraft:stick',Count:1b,tag:{CustomModelData:6900008}}],ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:6900006}}]}

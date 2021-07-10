@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900016,HideFlags:127,ctc:{id:\"eternal_tear\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.eternal_tear",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

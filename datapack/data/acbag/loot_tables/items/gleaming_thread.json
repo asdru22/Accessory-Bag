@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900018,HideFlags:127,ctc:{id:\"gleaming_thread\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.gleaming_thread",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

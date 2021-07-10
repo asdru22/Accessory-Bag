@@ -1,1 +1,2 @@
-execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"celestial_crystal",from:"asdru:accessory_bag"}} run function acbag:entity/player/astrolites/acc/celestial_crystal
+execute if entity @s[tag=!acbag.star_dial] if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"star_dial",from:"asdru:accessory_bag"}} run function acbag:entity/player/astrolites/acc/star_dial/enable
+execute if entity @s[tag=acbag.star_dial,tag=acbag.celestial_crystal] unless data storage acbag:storage root.temp.bag[].tag{ctc:{id:"star_dial",from:"asdru:accessory_bag"}} run function acbag:entity/player/astrolites/acc/star_dial/disable

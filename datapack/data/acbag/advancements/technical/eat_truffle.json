@@ -1,0 +1,68 @@
+{
+    "criteria": {
+      "red_truffle": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:cookie"
+            ],
+            "nbt": "{ctc:{id:\"red_truffle\",from:\"asdru:accessory_bag\"}}"
+          }
+        }
+      },
+      "blue_truffle": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:cookie"
+            ],
+            "nbt": "{ctc:{id:\"blue_truffle\",from:\"asdru:accessory_bag\"}}"
+          }
+        }
+      },
+      "white_truffle": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:cookie"
+            ],
+            "nbt": "{ctc:{id:\"white_truffle\",from:\"asdru:accessory_bag\"}}"
+          }
+        }
+      },
+      "purple_truffle": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:cookie"
+            ],
+            "nbt": "{ctc:{id:\"purple_truffle\",from:\"asdru:accessory_bag\"}}"
+          }
+        }
+      },
+      "green_truffle": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:cookie"
+            ],
+            "nbt": "{ctc:{id:\"green_truffle\",from:\"asdru:accessory_bag\"}}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "red_truffle","blue_truffle","white_truffle","green_truffle","purple_truffle"
+      ]
+    ],
+    "rewards": {
+      "function": "acbag:entity/player/actions/eat_truffle"
+    }
+  }
+  

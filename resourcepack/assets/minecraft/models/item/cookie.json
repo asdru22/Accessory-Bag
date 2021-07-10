@@ -1,0 +1,13 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/cookie"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 6900000},"model": "acbag:item/truffle_red"},
+    {"predicate": {"custom_model_data": 6900001},"model": "acbag:item/truffle_blue"},
+    {"predicate": {"custom_model_data": 6900002},"model": "acbag:item/truffle_purple"},
+    {"predicate": {"custom_model_data": 6900003},"model": "acbag:item/truffle_green"},
+    {"predicate": {"custom_model_data": 6900004},"model": "acbag:item/truffle_white"}
+]
+}

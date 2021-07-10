@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900004,ctc:{id:\"white_truffle\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.white_truffle",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}
