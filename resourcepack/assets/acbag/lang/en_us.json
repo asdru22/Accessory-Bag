@@ -83,7 +83,7 @@
   "item.acbag.star_dial.lore2": "and increases Astrolite regeneration by 1%",
   "item.acbag.fungi_concoction": "Fungi Concoction",
   "item.acbag.fungi_concoction.lore1": "Striking a mob has a 5% chance to make lichen",
-  "item.acbag.fungi_concoction.lore2": "grow around him, immobilizing it for 2 seconds.",
+  "item.acbag.fungi_concoction.lore2": "grow around it, immobilizing it for 2 seconds.",
   "item.acbag.fungi_concoction.lore3": "If a mob dies with the lichen surrounding it,",
   "item.acbag.fungi_concoction.lore4": "it will drop truffles. Eating them will grant",
   "item.acbag.fungi_concoction.lore5": "minor stat boosts.",
