@@ -151,6 +151,9 @@
   "item.acbag.recipe_book.ingredients.lapis_lazuli": "\ue438",
   "item.acbag.recipe_book.ingredients.orange_dye": "\ue439",
   "item.acbag.recipe_book.ingredients.string": "\ue43a",
+  "item.acbag.recipe_book.ingredients.twisting_vines": "\ue43b",
+  "item.acbag.recipe_book.ingredients.lapis_block": "\ue43c",
+  "item.acbag.recipe_book.ingredients.cobweb": "\ue43d",
 
   "item.acbag.recipe_book.icon.bracelet": "\ue01b",
   "item.acbag.recipe_book.icon.ring": "\ue01c",
@@ -167,6 +170,7 @@
   "item.acbag.recipe_book.icon.thinkery_table": "\ue027",
   "item.acbag.recipe_book.icon.faraday_jewel": "\ue028",
   "item.acbag.recipe_book.icon.accessory_bag": "\ue029",
+  "item.acbag.recipe_book.icon.enchanted_string": "\ue02a",
 
   "item.acbag.obsidian_core": "Obsidian Core",
   "item.acbag.obsidian_core.lore1": "",
