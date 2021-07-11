@@ -443,6 +443,15 @@
       "chars":[
         "\ue02a"
       ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/guardian_resonator.png",
+      "ascent":13,
+      "height":32,
+      "chars":[
+        "\ue02b"
+      ]
     }
   ]
 }
