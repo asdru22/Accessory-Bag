@@ -17,19 +17,18 @@
     "bandit": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Health:0f}"
+            }
+          }
+        ],
         "damage": {
           "source_entity": {
             "nbt": "{Tags:[\"acbag.entity.bandit\"]}"
-          }
-        }
-      }
-    },
-    "!bandit": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "damage": {
-          "source_entity": {
-            "nbt": "{Tags:[\"!acbag.entity.bandit\"]}"
           }
         }
       }
@@ -37,11 +36,10 @@
   },
   "requirements": [
     [
-      "!bandit",
-      "bandit"
+      "requirement"
     ],
     [
-      "requirement"
+      "bandit"
     ]
   ],
   "rewards": {
