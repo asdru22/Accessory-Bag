@@ -1,0 +1,2 @@
+scoreboard players operation dmg.blocked acbag.dummy /= .count acbag.dummy
+execute as @e[type=#acbag:mobs,distance=..4,tag=!global.ignore] run function acbag:entity/player/when_hit/acc/guardian_resonator/apply

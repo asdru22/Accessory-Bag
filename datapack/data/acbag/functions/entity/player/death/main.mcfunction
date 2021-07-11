@@ -16,5 +16,5 @@ xp set @s 0 levels
 xp set @s 0 points
 
 kill @e[type=item,nbt={PickupDelay:40s,Item:{tag:{Items:[{tag:{ctc:{id:"soulbound_trinket",from:"asdru:accessory_bag"}}}]}}}]
-advancement revoke @s only acbag:technical/death
 scoreboard players set .playerdeath acbag.dummy 1
+advancement revoke @s only acbag:technical/death

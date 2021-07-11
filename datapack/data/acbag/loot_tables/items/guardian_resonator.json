@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "with": [
+                {
+                  "text": "3",
+                  "color": "gold"
+                }
+              ],
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.guardian_resonator.lore1",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.guardian_resonator.lore2",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.guardian_resonator.lore3",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900020,HideFlags:127,ctc:{id:\"guardian_resonator\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:3,trigger:\"When Hit\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.guardian_resonator",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

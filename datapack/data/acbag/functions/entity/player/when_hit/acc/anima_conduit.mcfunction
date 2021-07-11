@@ -1,6 +1,6 @@
 scoreboard players set anima.conduit acbag.dummy 1
 scoreboard players set .acc acbag.dummy 1
-data modify storage acbag:storage root.temp.AccArray insert 0 value '{"translate":"item.acbag.acc.anima_conduit","color":"green"}'
+data modify storage acbag:storage root.temp.AccArray insert 0 value '{"translate":"item.acbag.anima_conduit","color":"green"}'
 
 scoreboard players operation temp acbag.dummy = damage_recived acbag.dummy
 scoreboard players operation temp acbag.dummy /= acbag.const.2 acbag.dummy

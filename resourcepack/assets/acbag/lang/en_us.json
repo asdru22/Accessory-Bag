@@ -87,7 +87,12 @@
   "item.acbag.fungi_concoction.lore3": "If a mob dies with the lichen surrounding it,",
   "item.acbag.fungi_concoction.lore4": "it will drop truffles. Eating them will grant",
   "item.acbag.fungi_concoction.lore5": "minor stat boosts.",
-  
+  "item.acbag.guardian_resonator": "Guardian Resonator",
+  "item.acbag.guardian_resonator.lore1": "After blocking a powerful attack, there is a 10% chance for",
+  "item.acbag.guardian_resonator.lore2": "every 1 damage blocked to split the recived damage to",
+  "item.acbag.guardian_resonator.lore3": "all mobs in a 4 block radius",
+
+
   "item.acbag.blessing.damage": "Damage Blessing",
   "item.acbag.blessing.damage.lore": "Increases Adaptive Blade damage by 3.5",
   "item.acbag.blessing.sweeping": "Sweeping Blessing",

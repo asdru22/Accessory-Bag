@@ -25,6 +25,7 @@
     {"predicate": {"custom_model_data": 6900016},"model": "acbag:item/eternal_tear"},
     {"predicate": {"custom_model_data": 6900017},"model": "acbag:item/ambrosia"},
     {"predicate": {"custom_model_data": 6900018},"model": "acbag:item/gleaming_thread"},
-    {"predicate": {"custom_model_data": 6900019},"model": "acbag:item/gleamerite"}
+    {"predicate": {"custom_model_data": 6900019},"model": "acbag:item/gleamerite"},
+    {"predicate": {"custom_model_data": 6900020},"model": "acbag:item/guardian_resonator"}
 ]
 }
