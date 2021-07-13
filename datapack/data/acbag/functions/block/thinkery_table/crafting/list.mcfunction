@@ -15,3 +15,4 @@ execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thi
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/ender_beacon/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/accessory_bag/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/guardian_resonator/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/fungi_concoction/main

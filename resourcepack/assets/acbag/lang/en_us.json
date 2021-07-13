@@ -35,6 +35,7 @@
   "item.acbag.green_truffle": "Green Truffle",
   "item.acbag.purple_truffle": "Purple Truffle",
   "item.acbag.blue_truffle": "Blue Truffle",
+  "item.acbag.gigashroom": "Gigashroom",
 
   "item.acbag.superconductor": "Superconductor",
   "item.acbag.superconductor.lore1": "If you die from lightning damage, your next",
@@ -163,7 +164,10 @@
   "item.acbag.recipe_book.ingredients.cobweb": "\ue43d",
   "item.acbag.recipe_book.ingredients.heart_of_the_sea": "\ue43e",
   "item.acbag.recipe_book.ingredients.prismarine_shard": "\ue43f",
-
+  "item.acbag.recipe_book.ingredients.jar": "\ue440",
+  "item.acbag.recipe_book.ingredients.gigashroom": "\ue441",
+  "item.acbag.recipe_book.ingredients.red_mushroom": "\ue442",
+  "item.acbag.recipe_book.ingredients.brown_mushroom": "\ue443",
 
   "item.acbag.recipe_book.icon.bracelet": "\ue01b",
   "item.acbag.recipe_book.icon.ring": "\ue01c",
@@ -182,6 +186,7 @@
   "item.acbag.recipe_book.icon.accessory_bag": "\ue029",
   "item.acbag.recipe_book.icon.enchanted_string": "\ue02a",
   "item.acbag.recipe_book.icon.guardian_resonator": "\ue02b",
+  "item.acbag.recipe_book.icon.fungi_concoction": "\ue02c",
 
   "item.acbag.obsidian_core": "Obsidian Core",
   "item.acbag.obsidian_core.lore1": "",

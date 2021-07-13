@@ -452,6 +452,15 @@
       "chars":[
         "\ue02b"
       ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:font/book/heads/fungi_concoction.png",
+      "ascent":13,
+      "height":32,
+      "chars":[
+        "\ue02c"
+      ]
     }
   ]
 }
