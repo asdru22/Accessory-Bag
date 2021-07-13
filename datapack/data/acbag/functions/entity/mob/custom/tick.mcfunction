@@ -1,0 +1,1 @@
+execute if entity @s[tag=acbag.entity.wandering_soul,nbt={HurtTime:0s}] run item replace entity @s armor.head with stick{CustomModelData:6900004}
