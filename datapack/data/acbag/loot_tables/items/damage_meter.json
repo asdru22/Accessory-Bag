@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "with": [
+                {
+                  "text": "1",
+                  "color": "green"
+                }
+              ],
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.damage_meter.lore1",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.damage_meter.lore2",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900021,HideFlags:127,ctc:{id:\"damage_meter\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:3,trigger:\"On Hit\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.damage_meter",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

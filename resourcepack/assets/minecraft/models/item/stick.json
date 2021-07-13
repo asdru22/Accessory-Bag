@@ -13,6 +13,7 @@
     {"predicate": {"custom_model_data": 6900006},"model": "acbag:entity/shrigma_zombie/head"},
     {"predicate": {"custom_model_data": 6900007},"model": "acbag:entity/shrigma_zombie/right_arm"},
     {"predicate": {"custom_model_data": 6900008},"model": "acbag:entity/shrigma_zombie/left_arm"},
-    {"predicate": {"custom_model_data": 6900009},"model": "acbag:entity/growing_lichen"}    
+    {"predicate": {"custom_model_data": 6900009},"model": "acbag:entity/growing_lichen"},
+    {"predicate": {"custom_model_data": 6900010},"model": "acbag:empty"}    
 ]
 }

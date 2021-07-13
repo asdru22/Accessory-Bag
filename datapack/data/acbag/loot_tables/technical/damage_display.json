@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6900010}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "score": {
+            "name": "unit",
+            "objective": "acbag.dummy"
+          },
+          "color": "red"
+        },
+        {
+          "text": "."
+        },
+        {
+          "score": {
+            "name": "dec",
+            "objective": "acbag.dummy"
+          }
+        }
+      ]
+    }
+  ]
+}
