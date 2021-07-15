@@ -17,3 +17,4 @@ execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thi
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/guardian_resonator/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/fungi_concoction/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/jar/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/damage_meter/main
