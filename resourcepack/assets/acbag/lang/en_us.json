@@ -168,6 +168,7 @@
   "item.acbag.recipe_book.ingredients.gigashroom": "\ue441",
   "item.acbag.recipe_book.ingredients.red_mushroom": "\ue442",
   "item.acbag.recipe_book.ingredients.brown_mushroom": "\ue443",
+  "item.acbag.recipe_book.ingredients.compass": "\ue444",
 
   "item.acbag.recipe_book.icon.bracelet": "\ue01b",
   "item.acbag.recipe_book.icon.ring": "\ue01c",
@@ -187,6 +188,7 @@
   "item.acbag.recipe_book.icon.enchanted_string": "\ue02a",
   "item.acbag.recipe_book.icon.guardian_resonator": "\ue02b",
   "item.acbag.recipe_book.icon.fungi_concoction": "\ue02c",
+  "item.acbag.recipe_book.icon.damage_meter": "\ue02d",
 
   "item.acbag.obsidian_core": "Obsidian Core",
   "item.acbag.obsidian_core.lore1": "",

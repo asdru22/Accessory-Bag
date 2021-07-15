@@ -461,6 +461,15 @@
       "chars":[
         "\ue02c"
       ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/damage_meter.png",
+      "ascent":13,
+      "height":32,
+      "chars":[
+        "\ue02d"
+      ]
     }
   ]
 }
