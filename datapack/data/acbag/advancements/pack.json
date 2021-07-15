@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bundle",
+      "nbt": "{CustomModelData:6900000}"
+    },
+    "title": {
+      "translate": "pack.acbag"
+    },
+    "description": {
+      "translate": "pack.acbag.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:asdru",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

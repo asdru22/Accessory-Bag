@@ -1,6 +1,6 @@
 {
   "pack.acbag": "Acessory Bag V1.0.0",
-  "pack.acbag.desc": "",
+  "pack.acbag.desc": "Adds accessories and other small features to the game.",
   "item.minecraft.knowledge_book": "Recipe Output",
   "ui.acbag.triggered_accessories": "Triggered: ",
   "item.acbag.class": "Class: %s",
