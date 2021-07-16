@@ -66,3 +66,5 @@ scoreboard objectives add acbag.id.31 dummy
 
 schedule function acbag:second 1s replace
 gamerule keepInventory true
+
+tellraw @a[tag=acbag.debug] {"text":"Loaded!","color":"yellow"}

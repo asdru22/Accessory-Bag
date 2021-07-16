@@ -308,6 +308,14 @@
       "chars":[
         "\ue01b"
       ]
+    },    {
+      "type":"bitmap",
+      "file":"acbag:item/bracelet.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef1b"
+      ]
     },
     {
       "type":"bitmap",
@@ -316,6 +324,15 @@
       "height":32,
       "chars":[
         "\ue01c"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/ring.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef1c"
       ]
     },
     {
@@ -329,11 +346,29 @@
     },
     {
       "type":"bitmap",
+      "file":"acbag:item/anima_conduit.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef1d"
+      ]
+    },
+    {
+      "type":"bitmap",
       "file":"acbag:item/celestial_crystal.png",
       "ascent":13,
       "height":32,
       "chars":[
         "\ue01e"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/celestial_crystal.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef1e"
       ]
     },
     {
@@ -347,11 +382,29 @@
     },
     {
       "type":"bitmap",
+      "file":"acbag:item/crystal_heart.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef1f"
+      ]
+    },
+    {
+      "type":"bitmap",
       "file":"acbag:item/feral_claws.png",
       "ascent":13,
       "height":32,
       "chars":[
         "\ue020"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/feral_claws.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef20"
       ]
     },
     {
@@ -365,11 +418,29 @@
     },
     {
       "type":"bitmap",
+      "file":"acbag:item/firecracker.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef21"
+      ]
+    },
+    {
+      "type":"bitmap",
       "file":"acbag:item/hellfire_dart.png",
       "ascent":13,
       "height":32,
       "chars":[
         "\ue022"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/hellfire_dart.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef22"
       ]
     },
     {
@@ -383,11 +454,29 @@
     },
     {
       "type":"bitmap",
+      "file":"acbag:item/scroll_of_containment.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef23"
+      ]
+    },
+    {
+      "type":"bitmap",
       "file":"acbag:item/soulbound_trinket.png",
       "ascent":13,
       "height":32,
       "chars":[
         "\ue024"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/soulbound_trinket.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef24"
       ]
     },
     {
@@ -401,11 +490,29 @@
     },
     {
       "type":"bitmap",
+      "file":"acbag:font/book/heads/villager_sigil.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef25"
+      ]
+    },
+    {
+      "type":"bitmap",
       "file":"acbag:font/book/heads/ender_beacon.png",
       "ascent":13,
       "height":32,
       "chars":[
         "\ue026"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:font/book/heads/ender_beacon.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef26"
       ]
     },
     {
@@ -419,11 +526,29 @@
     },
     {
       "type":"bitmap",
+      "file":"acbag:font/book/heads/thinkery_table.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef27"
+      ]
+    },
+    {
+      "type":"bitmap",
       "file":"acbag:item/faraday_jewel.png",
       "ascent":13,
       "height":32,
       "chars":[
         "\ue028"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/faraday_jewel.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef28"
       ]
     },
     {
@@ -437,11 +562,29 @@
     },
     {
       "type":"bitmap",
+      "file":"acbag:item/accessory_bag.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef29"
+      ]
+    },
+    {
+      "type":"bitmap",
       "file":"acbag:item/enchanted_string.png",
       "ascent":13,
       "height":32,
       "chars":[
         "\ue02a"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/enchanted_string.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef2a"
       ]
     },
     {
@@ -455,6 +598,15 @@
     },
     {
       "type":"bitmap",
+      "file":"acbag:item/guardian_resonator.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef2b"
+      ]
+    },
+    {
+      "type":"bitmap",
       "file":"acbag:font/book/heads/fungi_concoction.png",
       "ascent":13,
       "height":32,
@@ -464,11 +616,29 @@
     },
     {
       "type":"bitmap",
+      "file":"acbag:font/book/heads/fungi_concoction.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef2c"
+      ]
+    },
+    {
+      "type":"bitmap",
       "file":"acbag:item/damage_meter.png",
       "ascent":13,
       "height":32,
       "chars":[
         "\ue02d"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/damage_meter.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef2d"
       ]
     }
   ]
