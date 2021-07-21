@@ -640,6 +640,24 @@
       "chars":[
         "\uef2d"
       ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:font/book/heads/cursed_pumpkin_medallion.png",
+      "ascent":13,
+      "height":32,
+      "chars":[
+        "\ue02e"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:font/book/heads/cursed_pumpkin_medallion.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef2e"
+      ]
     }
   ]
 }

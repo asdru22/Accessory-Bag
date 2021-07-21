@@ -95,6 +95,9 @@
   "item.acbag.damage_meter": "Damage Meter",
   "item.acbag.damage_meter.lore1": "Displays damage dealt",
   "item.acbag.damage_meter.lore2": "on top of the hit mob.",
+  "item.acbag.cursed_pumpkin_medallion": "Cursed Pumpkin Medallion",
+  "item.acbag.cursed_pumpkin_medallion.lore1": "When hitting a mob you have a 10% chance to",
+  "item.acbag.cursed_pumpkin_medallion.lore2": "replace the head of that mob with a pumpkin.",
 
   "item.acbag.blessing.damage": "Damage Blessing",
   "item.acbag.blessing.damage.lore": "Increases Adaptive Blade damage by 3.5",
@@ -170,6 +173,8 @@
   "item.acbag.recipe_book.ingredients.red_mushroom": "\ue442",
   "item.acbag.recipe_book.ingredients.brown_mushroom": "\ue443",
   "item.acbag.recipe_book.ingredients.compass": "\ue444",
+  "item.acbag.recipe_book.ingredients.carved_pumpkin": "\ue445",
+  "item.acbag.recipe_book.ingredients.black_dye": "\ue446",
 
   "item.acbag.recipe_book.icon.bracelet": "\ue01b",
   "item.acbag.recipe_book.icon.ring": "\ue01c",
@@ -190,6 +195,7 @@
   "item.acbag.recipe_book.icon.guardian_resonator": "\ue02b",
   "item.acbag.recipe_book.icon.fungi_concoction": "\ue02c",
   "item.acbag.recipe_book.icon.damage_meter": "\ue02d",
+  "item.acbag.recipe_book.icon.cursed_pumpkin_medallion": "\ue02e",
 
   "item.acbag.recipe_book.index.bracelet": "\uef1b",
   "item.acbag.recipe_book.index.ring": "\uef1c",
@@ -210,6 +216,7 @@
   "item.acbag.recipe_book.index.guardian_resonator": "\uef2b",
   "item.acbag.recipe_book.index.fungi_concoction": "\uef2c",
   "item.acbag.recipe_book.index.damage_meter": "\uef2d",
+  "item.acbag.recipe_book.index.cursed_pumpkin_medallion": "\uef2e",
 
   "item.acbag.obsidian_core": "Obsidian Core",
   "item.acbag.obsidian_core.lore1": "",
