@@ -222,6 +222,21 @@
   "item.acbag.recipe_book.index.damage_meter": "\uef2d",
   "item.acbag.recipe_book.index.cursed_pumpkin_medallion": "\uef2e",
 
+  "item.acbag.recipe_book.credits.author": "By Asdru",
+  "item.acbag.recipe_book.credits.credits": "Credits: ",
+  "item.acbag.recipe_book.credits.ancientkingg": "\ue60b",
+  "item.acbag.recipe_book.credits.ancientkingg.desc": "Creator of the Fancy Pants shader, used to create custom armor\ntextures without having to override the existing ones.",
+  "item.acbag.recipe_book.credits.creeper_magnet": "\ue60c",
+  "item.acbag.recipe_book.credits.creeper_magnet.desc": "CreeperMagnet_: Scoreboard based damage system",
+  "item.acbag.recipe_book.credits.icy": "\ue60d",
+  "item.acbag.recipe_book.credits.icy.desc": "ICY: Armor math for damage system",
+  "item.acbag.recipe_book.credits.cloud_wolf": "\ue60e",
+  "item.acbag.recipe_book.credits.cloud_wolf.desc": "Cloud Wolf: Tag based entity matching",
+  "item.acbag.recipe_book.credits.misode": "\ue60f",
+  "item.acbag.recipe_book.credits.misode.desc": "Misode: Rng function",
+  "item.acbag.recipe_book.credits.nphhpn": "\ue610",
+  "item.acbag.recipe_book.credits.nphhpn.desc": "Nphhpn: Scoreboard based entity matching",
+
   "item.acbag.obsidian_core": "Obsidian Core",
   "item.acbag.obsidian_core.lore1": "",
   "item.acbag.obsidian_core.lore2": ""

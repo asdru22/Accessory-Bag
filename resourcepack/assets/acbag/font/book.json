@@ -300,6 +300,16 @@
          "\ueace\ueacf\uead0\uead1\uead2\uead3\uead4\uead5\uead6\uead7\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
       ]
    },
+   {
+    "type":"bitmap",
+    "file":"acbag:font/book/credits.png",
+    "ascent":13,
+    "height":32,
+    "chars":[
+      "\ue60b\ue60c\ue60d\ue60e\ue60f\ue610\ue611\ue612\ue613\ue614",
+      "\ue615\ue616\ue617\ue618\ue619\ue61a\ue61b\ue61c\ue61d\ue61e"
+    ]
+  },
     {
       "type":"bitmap",
       "file":"acbag:item/bracelet.png",
