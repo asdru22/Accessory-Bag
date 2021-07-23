@@ -98,6 +98,10 @@
   "item.acbag.cursed_pumpkin_medallion": "Cursed Pumpkin Medallion",
   "item.acbag.cursed_pumpkin_medallion.lore1": "When hitting a mob you have a 10% chance to",
   "item.acbag.cursed_pumpkin_medallion.lore2": "replace the head of that mob with a pumpkin.",
+  "item.acbag.buzzing_crown": "Buzzing Crown",
+  "item.acbag.buzzing_crown.lore1": "When hit, you have a 10% chance to summon a friendly bee that",
+  "item.acbag.buzzing_crown.lore2": "will grant regeneration and absorption if they sting you.",
+
 
   "item.acbag.blessing.damage": "Damage Blessing",
   "item.acbag.blessing.damage.lore": "Increases Adaptive Blade damage by 3.5",

@@ -1,0 +1,1 @@
+execute as @a[tag=acbag.acc.buzzing_crown.hit] run function acbag:entity/mob/on_hit/acc/buzzing_crown/clear
