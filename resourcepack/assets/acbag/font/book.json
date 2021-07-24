@@ -303,8 +303,8 @@
    {
     "type":"bitmap",
     "file":"acbag:font/book/credits.png",
-    "ascent":13,
-    "height":32,
+    "ascent":12,
+    "height":24,
     "chars":[
       "\ue60b\ue60c\ue60d\ue60e\ue60f\ue610\ue611\ue612\ue613\ue614",
       "\ue615\ue616\ue617\ue618\ue619\ue61a\ue61b\ue61c\ue61d\ue61e"
@@ -667,6 +667,24 @@
       "height":16,
       "chars":[
         "\uef2e"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/buzzing_crown.png",
+      "ascent":13,
+      "height":32,
+      "chars":[
+        "\ue02f"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/buzzing_crown.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef2f"
       ]
     }
   ]

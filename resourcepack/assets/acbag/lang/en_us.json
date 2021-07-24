@@ -11,7 +11,7 @@
   "block.acbag.thinkery_table.gui": "\uf806\uf802\uF01d\uf80d\uf80a\uf808\uf801\uf80d%s",
 
   "item.acbag.accessory_bag": "Accessory Bag",
-  "item.acbag.accessory_bag.lore1": "This magical artifact can store up to 64 artifacts",
+  "item.acbag.accessory_bag.lore1": "This magical artifact can store up to 64 accessories",
   "item.acbag.accessory_bag.lore2": "Having multiple of the same ones just takes space.",
   "item.acbag.recipe_book": "Manual",
   "item.acbag.ring": "Ring",
@@ -179,6 +179,8 @@
   "item.acbag.recipe_book.ingredients.compass": "\ue444",
   "item.acbag.recipe_book.ingredients.carved_pumpkin": "\ue445",
   "item.acbag.recipe_book.ingredients.black_dye": "\ue446",
+  "item.acbag.recipe_book.ingredients.honeycomb": "\ue447",
+  "item.acbag.recipe_book.ingredients.raw_gold_block": "\ue448",
 
   "item.acbag.recipe_book.icon.bracelet": "\ue01b",
   "item.acbag.recipe_book.icon.ring": "\ue01c",
@@ -200,6 +202,7 @@
   "item.acbag.recipe_book.icon.fungi_concoction": "\ue02c",
   "item.acbag.recipe_book.icon.damage_meter": "\ue02d",
   "item.acbag.recipe_book.icon.cursed_pumpkin_medallion": "\ue02e",
+  "item.acbag.recipe_book.icon.buzzing_crown": "\ue02f",
 
   "item.acbag.recipe_book.index.bracelet": "\uef1b",
   "item.acbag.recipe_book.index.ring": "\uef1c",
@@ -221,11 +224,12 @@
   "item.acbag.recipe_book.index.fungi_concoction": "\uef2c",
   "item.acbag.recipe_book.index.damage_meter": "\uef2d",
   "item.acbag.recipe_book.index.cursed_pumpkin_medallion": "\uef2e",
+  "item.acbag.recipe_book.index.buzzing_crown": "\uef2f",
 
-  "item.acbag.recipe_book.credits.author": "By Asdru",
-  "item.acbag.recipe_book.credits.credits": "Credits: ",
+  "item.acbag.recipe_book.credits.author": "       By Asdru",
+  "item.acbag.recipe_book.credits.credits": "Credits:",
   "item.acbag.recipe_book.credits.ancientkingg": "\ue60b",
-  "item.acbag.recipe_book.credits.ancientkingg.desc": "Creator of the Fancy Pants shader, used to create custom armor\ntextures without having to override the existing ones.",
+  "item.acbag.recipe_book.credits.ancientkingg.desc": "AncientKingg: Creator of the Fancy Pants shader, used to create custom armor\ntextures without having to override the existing ones.",
   "item.acbag.recipe_book.credits.creeper_magnet": "\ue60c",
   "item.acbag.recipe_book.credits.creeper_magnet.desc": "CreeperMagnet_: Scoreboard based damage system",
   "item.acbag.recipe_book.credits.icy": "\ue60d",
@@ -236,6 +240,10 @@
   "item.acbag.recipe_book.credits.misode.desc": "Misode: Rng function",
   "item.acbag.recipe_book.credits.nphhpn": "\ue610",
   "item.acbag.recipe_book.credits.nphhpn.desc": "Nphhpn: Scoreboard based entity matching",
+  "item.acbag.recipe_book.credits.youtube": "\ue611",
+  "item.acbag.recipe_book.credits.discord": "\ue612",
+  "item.acbag.recipe_book.credits.youtube.desc": "Click here for my Youtube Channel",
+  "item.acbag.recipe_book.credits.discord.desc": "Click here for my Discord Server",
 
   "item.acbag.obsidian_core": "Obsidian Core",
   "item.acbag.obsidian_core.lore1": "",
