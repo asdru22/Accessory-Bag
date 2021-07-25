@@ -29,6 +29,7 @@
     {"predicate": {"custom_model_data": 6900020},"model": "acbag:item/guardian_resonator"},
     {"predicate": {"custom_model_data": 6900021},"model": "acbag:item/damage_meter"},
     {"predicate": {"custom_model_data": 6900022},"model": "acbag:item/gigashroom"},
-    {"predicate": {"custom_model_data": 6900023},"model": "acbag:item/buzzing_crown"}
+    {"predicate": {"custom_model_data": 6900023},"model": "acbag:item/buzzing_crown"},
+    {"predicate": {"custom_model_data": 6900024},"model": "acbag:item/autofeeder"}
 ]
 }

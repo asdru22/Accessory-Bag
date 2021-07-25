@@ -101,6 +101,9 @@
   "item.acbag.buzzing_crown": "Buzzing Crown",
   "item.acbag.buzzing_crown.lore1": "When hit, you have a 10% chance to summon a friendly bee that",
   "item.acbag.buzzing_crown.lore2": "will grant regeneration and absorption if they sting you.",
+  "item.acbag.autofeeder": "Autofeeder",
+  "item.acbag.autofeeder.lore1": "When below 3 saturation points, you will recive 3 extra.",
+  "item.acbag.autofeeder.lore2": "Requires 20 Astrolites.",
 
 
   "item.acbag.blessing.damage": "Damage Blessing",

@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "italic": false,
+              "color": "gray",
+              "with": [
+                {
+                  "text": "4",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.autofeeder.lore1",
+              "italic": false,
+              "color": "white"
+            },
+            {
+              "translate": "item.acbag.autofeeder.lore2",
+              "italic": false,
+              "color": "white"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900024,HideFlags:127,ctc:{id:\"autofeeder\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:4,trigger:\"Second\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.autofeeder",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

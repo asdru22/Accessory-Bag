@@ -5,3 +5,5 @@ execute if predicate acbag:item/faraday_jewel if data storage acbag:storage root
 #
 execute if entity @s[tag=!acbag.acc.crystal_heart] if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"crystal_heart",from:"asdru:accessory_bag"}} run function acbag:technical/second/acc/crystal_heart/enable
 execute if entity @s[tag=acbag.acc.crystal_heart] unless data storage acbag:storage root.temp.bag[].tag{ctc:{id:"crystal_heart",from:"asdru:accessory_bag"}} run function acbag:technical/second/acc/crystal_heart/disable
+#
+execute if entity @s[scores={acbag.cAstrolite=200..}] if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"autofeeder",from:"asdru:accessory_bag"}} run function acbag:technical/second/acc/autofeeder/main
