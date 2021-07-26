@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{TicksFrozen:140}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/player/actions/freeze_damage/damage"
+  }
+}

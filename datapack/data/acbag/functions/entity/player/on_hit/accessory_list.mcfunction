@@ -12,6 +12,6 @@ execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"damage_meter"
 #
 execute if predicate acbag:chance/10 if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"cursed_pumpkin_medallion",from:"asdru:accessory_bag"}} run function acbag:entity/player/on_hit/acc/cursed_pumpkin_medallion/enable
 #
-execute if predicate acbag:metal_sword_fire_aspect run function acbag:entity/player/on_hit/acc/tar_dispenser/check
+execute if predicate acbag:sword_fire_aspect run function acbag:entity/player/on_hit/acc/tar_dispenser/check
 #
 execute if score .acc acbag.dummy matches 1 run function acbag:item/accessory_bag/display

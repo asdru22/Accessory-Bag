@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "invis": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/player/actions/invisibility_changed/gain"
+  }
+}

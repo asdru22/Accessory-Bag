@@ -104,7 +104,12 @@
   "item.acbag.autofeeder": "Autofeeder",
   "item.acbag.autofeeder.lore1": "When below 3 saturation points, you will recive 3 extra.",
   "item.acbag.autofeeder.lore2": "Requires 20 Astrolites.",
-
+  "item.acbag.tar_dispenser": "Tar Dispenser",
+  "item.acbag.tar_dispenser.lore1": "Clicking coal ore with an empty jar allows you to",
+  "item.acbag.tar_dispenser.lore2": "fill up tar bottles. When thrown, all mobs",
+  "item.acbag.tar_dispenser.lore3": "caught in it's area are set on fire if they are",
+  "item.acbag.tar_dispenser.lore4": "hit by a weapon enchanted with fire aspect.",
+  "item.acbag.tar_bottle": "Tar Bottle",
 
   "item.acbag.blessing.damage": "Damage Blessing",
   "item.acbag.blessing.damage.lore": "Increases Adaptive Blade damage by 3.5",
