@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:127,CustomModelData:6900010,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": ".max_health"
+            },
+            "score": "acbag.dummy",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": ".armor"
+            },
+            "score": "acbag.dummy",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": ".movement_speed"
+            },
+            "score": "acbag.dummy",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": ".attack_damage"
+            },
+            "score": "acbag.dummy",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": "head"
+        }
+      ]
+    }
+  ]
+}
