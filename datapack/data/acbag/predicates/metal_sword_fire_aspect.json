@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "tag": "acbag:metal_sword",
+        "enchantments": [
+          {
+            "enchantment": "minecraft:fire_aspect"
+          }
+        ]
+      }
+    }
+  }
+}

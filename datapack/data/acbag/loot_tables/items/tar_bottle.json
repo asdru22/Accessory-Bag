@@ -1,0 +1,33 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:26b,Amplifier:65b,Duration:100,ShowParticles:0b}],CustomPotionColor:262180,HideFlags:127,ctc:{id:\"ambrosia\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.acbag.tar_bottle",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
