@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "with": [
+                {
+                  "text": "2",
+                  "color": "blue"
+                }
+              ],
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.golden_fermented_spider_eye.lore1",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.golden_fermented_spider_eye.lore2",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900025,HideFlags:127,ctc:{id:\"golden_fermented_spider_eye\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:2,trigger:\"Other\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.golden_fermented_spider_eye",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

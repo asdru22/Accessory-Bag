@@ -30,6 +30,16 @@ execute store result score base acbag.dummy run attribute @s generic.attack_dama
 scoreboard players operation tot acbag.dummy -= base acbag.dummy 
 execute unless score tot acbag.dummy matches 0 run scoreboard players operation .attack_damage acbag.dummy = tot acbag.dummy
 
+execute store result score tot acbag.dummy run attribute @s generic.knockback_resistance get 100
+execute store result score base acbag.dummy run attribute @s generic.knockback_resistance base get 100
+scoreboard players operation tot acbag.dummy -= base acbag.dummy 
+execute unless score tot acbag.dummy matches 0 run scoreboard players operation .knockback_resistance acbag.dummy = tot acbag.dummy
+
+execute store result score tot acbag.dummy run attribute @s generic.armor_toughness get 100
+execute store result score base acbag.dummy run attribute @s generic.armor_toughness base get 100
+scoreboard players operation tot acbag.dummy -= base acbag.dummy 
+execute unless score tot acbag.dummy matches 0 run scoreboard players operation .armor_toughness acbag.dummy = tot acbag.dummy
+
 item replace entity @s armor.chest with air
 item replace entity @s armor.feet with air
 item replace entity @s armor.legs with air

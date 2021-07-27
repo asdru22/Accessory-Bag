@@ -79,6 +79,36 @@
           },
           "operation": "addition",
           "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": ".knockback_resistance"
+            },
+            "score": "acbag.dummy",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "",
+          "amount": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": ".armor_toughness"
+            },
+            "score": "acbag.dummy",
+            "scale": 0.01
+          },
+          "operation": "addition",
+          "slot": "head"
         }
       ]
     }

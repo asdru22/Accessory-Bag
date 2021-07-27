@@ -110,6 +110,12 @@
   "item.acbag.tar_dispenser.lore3": "caught in it's area are set on fire if they are",
   "item.acbag.tar_dispenser.lore4": "hit by a weapon enchanted with fire aspect.",
   "item.acbag.tar_bottle": "Tar Bottle",
+  "item.acbag.golden_fermented_spider_eye": "Fermented Golden Spider Eye",
+  "item.acbag.golden_fermented_spider_eye.lore1": "When invisible your armor will be hidden",
+  "item.acbag.golden_fermented_spider_eye.lore2": "and you will mantain all attributes.",
+  "item.acbag.frozen_turtle_shell": "Frozen Turtle Shell",
+  "item.acbag.frozen_turtle_shell.lore1": "When Freezing, you will gain",
+  "item.acbag.frozen_turtle_shell.lore2": "resistance and strength.",
 
   "item.acbag.blessing.damage": "Damage Blessing",
   "item.acbag.blessing.damage.lore": "Increases Adaptive Blade damage by 3.5",

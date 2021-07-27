@@ -21,3 +21,6 @@ execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thi
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/cursed_pumpkin_medallion/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/buzzing_crown/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/autofeeder/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/tar_dispenser/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/frozen_turtle_shell/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/golden_fermented_spider_eye/main
