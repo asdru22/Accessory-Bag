@@ -24,3 +24,9 @@ execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thi
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/tar_dispenser/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/frozen_turtle_shell/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/golden_fermented_spider_eye/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/autofeeder/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/cactus_concoction/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/flame_2_enchanted_book/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/fleeing_artifact/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/gale_trident/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/portable_freezer/main

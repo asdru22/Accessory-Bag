@@ -4,6 +4,10 @@ execute if predicate acbag:chance/5 if data storage acbag:storage root.temp.bag[
 #
 execute if predicate acbag:chance/10 if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"buzzing_crown",from:"asdru:accessory_bag"}} run function acbag:entity/player/when_hit/acc/buzzing_crown
 #
+execute if entity @s[nbt={ActiveEffects:[{Id:11b}]}] if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"cactus_concoction",from:"asdru:accessory_bag"}} run function acbag:entity/player/when_hit/acc/cactus_concoction/main
+#
+execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"fleeing_artifact",from:"asdru:accessory_bag"}} run function acbag:entity/player/when_hit/acc/fleeing_artifact/main
+#
 execute if entity @s[scores={acbag.dmgBlocked=1..}] run function acbag:entity/player/when_hit/shield/main
 #
 

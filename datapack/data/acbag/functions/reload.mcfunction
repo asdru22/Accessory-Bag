@@ -9,6 +9,7 @@ scoreboard objectives add acbag.light_dmg dummy
 
 scoreboard objectives add acbag.useBow minecraft.used:minecraft.bow
 scoreboard objectives add acbag.useCbow minecraft.used:minecraft.crossbow
+scoreboard objectives add acbag.useTrident minecraft.used:minecraft.trident
 scoreboard objectives add acbag.openBundle minecraft.used:minecraft.bundle
 scoreboard objectives add acbag.wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add acbag.dmgBlocked minecraft.custom:minecraft.damage_blocked_by_shield

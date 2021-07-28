@@ -2,6 +2,8 @@
 	"description": "All mob entities",
 	"values": [
 		"minecraft:armor_stand",
-		"minecraft:glow_item_frame"
+		"minecraft:glow_item_frame",
+		"minecraft:arrow",
+		"minecraft:trident"
 	]
 }

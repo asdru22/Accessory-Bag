@@ -14,4 +14,6 @@ execute if predicate acbag:chance/10 if data storage acbag:storage root.temp.bag
 #
 execute if predicate acbag:sword_fire_aspect run function acbag:entity/player/on_hit/acc/tar_dispenser/check
 #
+execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"portable_freezer",from:"asdru:accessory_bag"}} at @s if entity @e[type=#acbag:mobs,distance=..10,tag=!global.ignore,nbt={TicksFrozen:140,HurtTime:10s}] run function acbag:entity/player/on_hit/acc/portable_freezer/enable
+#
 execute if score .acc acbag.dummy matches 1 run function acbag:item/accessory_bag/display

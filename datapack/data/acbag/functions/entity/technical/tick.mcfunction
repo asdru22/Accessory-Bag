@@ -1,1 +1,2 @@
 execute if entity @s[type=glow_item_frame,tag=acbag.thinkery_table] at @s run function acbag:block/thinkery_table/tick
+execute if entity @s[type=trident,tag=!acbag.on_ground,tag=acbag.gale_trident,nbt={inGround:0b}] at @s run function acbag:entity/player/shoot/trident/acc/gale_trident/summon
