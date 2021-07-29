@@ -229,8 +229,8 @@
   "item.acbag.recipe_book.ingredients.blue_ice": "\ue458",
   "item.acbag.recipe_book.ingredients.scute": "\ue459",
   "item.acbag.recipe_book.ingredients.glass": "\ue45a",
-  "item.acbag.recipe_book.ingredients.2": "\ue45b",
-  "item.acbag.recipe_book.ingredients.3": "\ue45c",
+  "item.acbag.recipe_book.ingredients.glass_bottle": "\ue45b",
+  "item.acbag.recipe_book.ingredients.cactus": "\ue45c",
   "item.acbag.recipe_book.ingredients.4": "\ue45d",
   "item.acbag.recipe_book.ingredients.5": "\ue45e",
   "item.acbag.recipe_book.ingredients.6": "\ue45f",
@@ -265,6 +265,7 @@
   "item.acbag.recipe_book.icon.tar_dispenser": "\ue036",
   "item.acbag.recipe_book.icon.frozen_turtle_shell": "\ue037",
   "item.acbag.recipe_book.icon.jar": "\ue038",
+  "item.acbag.recipe_book.icon.cactus_concoction": "\ue039",
 
   "item.acbag.recipe_book.index.bracelet": "\uef1b",
   "item.acbag.recipe_book.index.ring": "\uef1c",
@@ -296,6 +297,7 @@
   "item.acbag.recipe_book.index.tar_dispenser": "\uef36",
   "item.acbag.recipe_book.index.frozen_turtle_shell": "\uef37",
   "item.acbag.recipe_book.index.jar": "\uef38",
+  "item.acbag.recipe_book.index.cactus_concoction": "\uef39",
 
   "item.acbag.recipe_book.credits.author": "       By Asdru",
   "item.acbag.recipe_book.credits.credits": "Credits:",

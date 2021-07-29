@@ -848,6 +848,24 @@
       "chars":[
         "\uef38"
       ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/cactus_concoction.png",
+      "ascent":13,
+      "height":32,
+      "chars":[
+        "\ue039"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/cactus_concoction.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef39"
+      ]
     }
   ]
 }
