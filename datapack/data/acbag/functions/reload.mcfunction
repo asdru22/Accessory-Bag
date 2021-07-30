@@ -7,6 +7,8 @@ scoreboard objectives add acbag.mAstrolite dummy
 scoreboard objectives add acbag.pAstrolite dummy
 scoreboard objectives add acbag.light_dmg dummy
 
+scoreboard objectives add acbag.manual trigger
+
 scoreboard objectives add acbag.useBow minecraft.used:minecraft.bow
 scoreboard objectives add acbag.useCbow minecraft.used:minecraft.crossbow
 scoreboard objectives add acbag.useTrident minecraft.used:minecraft.trident

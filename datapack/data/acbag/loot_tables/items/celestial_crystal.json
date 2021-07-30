@@ -49,6 +49,18 @@
             "color": "#9EFFE8",
             "italic": false
           }
+        },
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.flying_speed",
+              "name": "",
+              "amount": 0,
+              "operation": "addition",
+              "slot": "head"
+            }
+          ]
         }
       ]
     }

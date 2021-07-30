@@ -11,3 +11,4 @@ execute as @a[scores={acbag.wfoas=1..}] run function acbag:item/wfoas/main
 execute as @a[tag=acbag.has_pulled] run function acbag:entity/player/charge/tick
 execute as @a store result score @s acbag.dummy run data get entity @s Health 100
 execute as @a[predicate=acbag:invisibility] run function acbag:entity/player/actions/invisibility_changed/lost
+execute as @a[scores={acbag.manual=1..}] run function acbag:entity/player/book
