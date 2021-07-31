@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "acbag:entity/yeti/normal",
+		"particle": "acbag:entity/yeti/normal"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 2],
+			"to": [10, 4, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [12, 4, 13, 5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [11.25, 8, 12.25, 5.25], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 4, 12, 5], "texture": "#0"},
+				"west": {"uv": [13, 5, 14, 8], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [10, 8, 11.25, 5], "texture": "#0"},
+				"down": {"uv": [10, 5, 11, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.78, 5.98],
+			"scale": [1.13, 1.13, 1.05]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.78, 5.98],
+			"scale": [1.13, 1.13, 1.05]
+		}
+	},
+	"groups": [
+		{
+			"name": "left_arm",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

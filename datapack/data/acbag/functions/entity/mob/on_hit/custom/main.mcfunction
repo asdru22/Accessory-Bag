@@ -1,0 +1,1 @@
+execute if entity @s[tag=acbag.entity.yeti] as @p[advancements={acbag:technical/when_hit=true}] run function acbag:entity/mob/on_hit/custom/yeti/main

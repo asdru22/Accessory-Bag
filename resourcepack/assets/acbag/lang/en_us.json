@@ -320,6 +320,8 @@
 
   "item.acbag.obsidian_core": "Obsidian Core",
   "item.acbag.obsidian_core.lore1": "",
-  "item.acbag.obsidian_core.lore2": ""
+  "item.acbag.obsidian_core.lore2": "",
 
+  "subtitles.acbag.entity.wandering_soul.when_hit" : "Wandering Soul hurts",
+  "subtitles.acbag.entity.yeti.when_hit" : "Yeti hurts"
 }

@@ -14,6 +14,10 @@
     {"predicate": {"custom_model_data": 6900007},"model": "acbag:entity/shrigma_zombie/right_arm"},
     {"predicate": {"custom_model_data": 6900008},"model": "acbag:entity/shrigma_zombie/left_arm"},
     {"predicate": {"custom_model_data": 6900009},"model": "acbag:entity/growing_lichen"},
-    {"predicate": {"custom_model_data": 6900010},"model": "acbag:empty"}    
+    {"predicate": {"custom_model_data": 6900010},"model": "acbag:empty"},
+    {"predicate": {"custom_model_data": 6900011},"model": "acbag:entity/yeti/head"},
+    {"predicate": {"custom_model_data": 6900012},"model": "acbag:entity/yeti/arm"},
+    {"predicate": {"custom_model_data": 6900013},"model": "acbag:entity/yeti/head_hurt"},
+    {"predicate": {"custom_model_data": 6900014},"model": "acbag:entity/yeti/arm_hurt"}
 ]
 }
