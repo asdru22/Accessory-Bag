@@ -34,6 +34,16 @@
     {"predicate": {"custom_model_data": 6900025},"model": "acbag:item/golden_fermented_spider_eye"},
     {"predicate": {"custom_model_data": 6900026},"model": "acbag:item/cactus_concoction"},
     {"predicate": {"custom_model_data": 6900027},"model": "acbag:item/flame_2_enchanted_book"},
-    {"predicate": {"custom_model_data": 6900028},"model": "acbag:item/gale_trident"}
+    {"predicate": {"custom_model_data": 6900028},"model": "acbag:item/gale_trident"},
+    {"predicate": {"custom_model_data": 6900029},"model": "acbag:item/frozen_heart"},
+    {"predicate": {"custom_model_data": 6900030},"model": "acbag:item/white_fur"},
+    {"predicate": {"custom_model_data": 6900031},"model": "acbag:item/alchemist_glove"},
+    {"predicate": {"custom_model_data": 6900032},"model": "acbag:item/tornado_in_a_bottle"},
+    {"predicate": {"custom_model_data": 6900033},"model": "acbag:item/suspicious_bait"},
+    {"predicate": {"custom_model_data": 6900034},"model": "acbag:item/fertility_syphon"},
+    {"predicate": {"custom_model_data": 6900035},"model": "acbag:item/voidflow_juice"},
+    {"predicate": {"custom_model_data": 6900036},"model": "acbag:item/surgial_glove"},
+    {"predicate": {"custom_model_data": 6900037},"model": "acbag:item/vengeful_band"},
+    {"predicate": {"custom_model_data": 6900038},"model": "acbag:item/philosopher_stone"}
 ]
 }

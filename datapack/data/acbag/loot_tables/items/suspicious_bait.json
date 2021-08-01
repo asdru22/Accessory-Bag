@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "italic": false,
+              "color": "gray",
+              "with": [
+                {
+                  "text": "5",
+                  "color": "light_purple"
+                }
+              ]
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.suspicious_bait.lore",
+              "italic": false,
+              "color": "white"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900033,HideFlags:127,ctc:{id:\"suspicious_bait\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:5,trigger:\"Fishing\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.suspicious_bait",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.flying_speed",
+              "name": "",
+              "amount": 0,
+              "operation": "addition",
+              "slot": "head"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

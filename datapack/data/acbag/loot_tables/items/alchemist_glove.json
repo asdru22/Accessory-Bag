@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "item.acbag.class",
+              "italic": false,
+              "color": "gray",
+              "with": [
+                {
+                  "text": "3",
+                  "color": "gold"
+                }
+              ]
+            },
+            {
+              "text": ""
+            },
+            {
+              "translate": "item.acbag.alchemist_glove.lore1",
+              "italic": false,
+              "color": "white"
+            },
+            {
+              "translate": "item.acbag.alchemist_glove.lore2",
+              "italic": false,
+              "color": "white"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900031,HideFlags:127,ctc:{id:\"alchemist_glove\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:3,trigger:\"Other\"}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.alchemist_glove",
+            "color": "#9EFFE8",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.flying_speed",
+              "name": "",
+              "amount": 0,
+              "operation": "addition",
+              "slot": "head"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
