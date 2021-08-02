@@ -1,0 +1,1 @@
+execute as @a[advancements={acbag:technical/fishing=true}] run function acbag:entity/player/actions/fishing/as_player

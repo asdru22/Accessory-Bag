@@ -1,0 +1,1 @@
+schedule function acbag:entity/player/actions/fishing/schedule 1t

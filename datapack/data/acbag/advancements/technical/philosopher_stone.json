@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "eat": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[{id:\"minecraft:bundle\",tag:{Items:[{id:\"minecraft:repeating_command_block\",tag:{ctc:{id:\"philosopher_stone\",from:\"asdru:accessory_bag\"}}}],ctc:{id:\"accessory_bag\",from:\"asdru:accessory_bag\"}}}]}"
+        },
+        "item": {
+          "items": [
+            "minecraft:apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/player/actions/consume_item/philosopher_stone"
+  }
+}

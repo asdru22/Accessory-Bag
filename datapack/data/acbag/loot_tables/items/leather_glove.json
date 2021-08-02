@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900040,HideFlags:127,ctc:{id:\"leather_glove\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.leather_glove",
+            "color": "white",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.flying_speed",
+              "name": "",
+              "amount": 0,
+              "operation": "addition",
+              "slot": "head"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

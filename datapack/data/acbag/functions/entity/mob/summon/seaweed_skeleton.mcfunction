@@ -1,0 +1,1 @@
+summon skeleton ~ ~ ~ {Tags:["acbag.entity.sea_creature","acbag.entity","acbag.entity.seaweed_skeleton"],DeathLootTable:"acbag:items/"}

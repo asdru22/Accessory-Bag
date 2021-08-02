@@ -1,0 +1,1 @@
+execute as @a[tag=acbag.schedule.alchemist_glove] run function acbag:entity/player/actions/drink_potion/data

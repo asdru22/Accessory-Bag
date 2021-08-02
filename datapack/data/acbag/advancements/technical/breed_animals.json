@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "invis": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[{id:\"minecraft:bundle\",tag:{Items:[{id:\"minecraft:repeating_command_block\",tag:{ctc:{id:\"fertility_syphon\",from:\"asdru:accessory_bag\"}}}],ctc:{id:\"accessory_bag\",from:\"asdru:accessory_bag\"}}}]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/player/actions/breed_animals/main"
+  }
+}

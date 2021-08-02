@@ -1,0 +1,1 @@
+summon silverfish ~ ~ ~ {Tags:["acbag.entity.sea_creature","acbag.entity","acbag.entity.sea_bug"],DeathLootTable:"acbag:items/"}

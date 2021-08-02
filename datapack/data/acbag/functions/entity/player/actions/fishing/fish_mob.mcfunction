@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Age:0s}] at @s run function acbag:entity/player/actions/fishing/item_data
