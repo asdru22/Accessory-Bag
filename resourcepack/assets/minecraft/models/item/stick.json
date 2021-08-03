@@ -18,6 +18,7 @@
     {"predicate": {"custom_model_data": 6900011},"model": "acbag:entity/yeti/head"},
     {"predicate": {"custom_model_data": 6900012},"model": "acbag:entity/yeti/arm"},
     {"predicate": {"custom_model_data": 6900013},"model": "acbag:entity/yeti/head_hurt"},
-    {"predicate": {"custom_model_data": 6900014},"model": "acbag:entity/yeti/arm_hurt"}
+    {"predicate": {"custom_model_data": 6900014},"model": "acbag:entity/yeti/arm_hurt"},
+    {"predicate": {"custom_model_data": 6900015},"model": "acbag:entity/tornado"}
 ]
 }

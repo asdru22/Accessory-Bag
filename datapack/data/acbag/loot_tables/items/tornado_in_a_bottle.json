@@ -27,7 +27,12 @@
               "text": ""
             },
             {
-              "translate": "item.acbag.tornado_in_a_bottle.lore",
+              "translate": "item.acbag.tornado_in_a_bottle.lore1",
+              "italic": false,
+              "color": "white"
+            },
+            {
+              "translate": "item.acbag.tornado_in_a_bottle.lore2",
               "italic": false,
               "color": "white"
             }

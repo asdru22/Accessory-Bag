@@ -1,0 +1,2 @@
+advancement revoke @s only acbag:technical/tornado_in_a_bottle
+summon armor_stand ~ ~ ~ {Invulnerable:1b,NoGravity:1b,Invisible:1b,Tags:["acbag.entity","acbag.entity.tornado"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:6900015}}]}
