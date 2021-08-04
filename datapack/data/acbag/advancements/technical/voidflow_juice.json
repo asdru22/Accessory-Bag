@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[{id:\"minecraft:bundle\",tag:{Items:[{id:\"minecraft:repeating_command_block\",tag:{ctc:{id:\"voidflow_juice\",from:\"asdru:accessory_bag\"}}}],ctc:{id:\"accessory_bag\",from:\"asdru:accessory_bag\"}}}]}"
+        },
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/player/actions/consume_item/voidflow_juice"
+  }
+}
