@@ -185,9 +185,10 @@
 
   "item.acbag.recipe_book.texts.recipe": "Recipe:",
   "item.acbag.recipe_book.texts.obtain": "Obtain:",
-  "item.acbag.recipe_book.texts.index_item": "Item Index\n\n",
-  "item.acbag.recipe_book.texts.index_accessory": "Accessory Index\n\n",
-  "item.acbag.recipe_book.texts.index_combat": "Combat Index\n\n",
+  "item.acbag.recipe_book.texts.index_item": "Items\n\n",
+  "item.acbag.recipe_book.texts.index_accessory1": "Accessories (1/2)\n\n",
+  "item.acbag.recipe_book.texts.index_accessory2": "Accessories (2/2)\n\n",
+  "item.acbag.recipe_book.texts.index_combat": "Combat\n\n",
   "item.acbag.recipe_book.texts.bestiary": "Bestiary\n\n",
   "item.acbag.recipe_book.texts.materials": "Materials Required:",
   "item.acbag.recipe_book.spaces.32": "\uF801",
