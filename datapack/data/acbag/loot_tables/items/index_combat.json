@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{title:\"\",author:\"\",pages:['[{\"text\":\"\",\"font\":\"acbag:book\",\"color\":\"white\",\"bold\":true},{\"translate\":\"item.acbag.recipe_book.texts.index_combat\",\"color\":\"black\"},{\"translate\":\"item.acbag.recipe_book.index.adaptive_blade\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"block.acbag.adaptive_blade\"}]},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"######\"}}]']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

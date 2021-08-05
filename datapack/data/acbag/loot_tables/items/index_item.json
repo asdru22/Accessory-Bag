@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{title:\"\",author:\"\",pages:['[{\"text\":\"\",\"font\":\"acbag:book\",\"color\":\"white\",\"bold\":true},{\"translate\":\"item.acbag.recipe_book.texts.index_item\",\"color\":\"black\"},{\"translate\":\"item.acbag.recipe_book.index.thinkery_table\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"block.acbag.thinkery_table\"}]},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5\"}},{\"translate\":\"item.acbag.recipe_book.index.accessory_bag\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.acbag.accessory_bag\"}]},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6\"}},{\"translate\":\"item.acbag.recipe_book.index.bracelet\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.acbag.bracelet\"}]},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7\"}},{\"translate\":\"item.acbag.recipe_book.index.ring\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.acbag.ring\"}]},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"8\"}},{\"translate\":\"item.acbag.recipe_book.index.jar\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.acbag.jar\"}]},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"9\"}},{\"translate\":\"item.acbag.recipe_book.index.leather_glove\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.acbag.leather_glove\"}]},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"10\"}}]']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

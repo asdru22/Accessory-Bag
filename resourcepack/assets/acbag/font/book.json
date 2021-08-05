@@ -1028,6 +1028,24 @@
       "chars":[
         "\uef42"
       ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/voidflow_juice.png",
+      "ascent":13,
+      "height":32,
+      "chars":[
+        "\ue043"
+      ]
+    },
+    {
+      "type":"bitmap",
+      "file":"acbag:item/voidflow_juice.png",
+      "ascent":13,
+      "height":16,
+      "chars":[
+        "\uef43"
+      ]
     }
   ]
 }

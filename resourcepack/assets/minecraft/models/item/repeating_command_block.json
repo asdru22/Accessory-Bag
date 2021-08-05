@@ -46,6 +46,8 @@
     {"predicate": {"custom_model_data": 6900037},"model": "acbag:item/vengeful_band"},
     {"predicate": {"custom_model_data": 6900038},"model": "acbag:item/philosopher_stone"},
     {"predicate": {"custom_model_data": 6900039},"model": "acbag:item/concussive_glove"},
-    {"predicate": {"custom_model_data": 6900040},"model": "acbag:item/leather_glove"}
+    {"predicate": {"custom_model_data": 6900040},"model": "acbag:item/leather_glove"},
+    {"predicate": {"custom_model_data": 6900041},"model": "acbag:item/lightning_in_a_bottle"},
+    {"predicate": {"custom_model_data": 6900042},"model": "acbag:item/morphic_gem"}
 ]
 }
