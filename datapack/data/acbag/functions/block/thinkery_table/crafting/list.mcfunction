@@ -42,3 +42,5 @@ execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thi
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/tornado_in_a_bottle/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/protoplasm/main
 execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/the_phantom/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/adaptive_blade/main
+execute if score acbag.result acbag.dummy matches 0 run function acbag:block/thinkery_table/crafting/recipes/gleamerite/main

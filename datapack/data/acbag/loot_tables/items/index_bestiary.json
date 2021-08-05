@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{title:\"\",author:\"\",pages:['[{\"text\":\"\",\"font\":\"acbag:book\",\"color\":\"white\",\"bold\":true},{\"translate\":\"item.acbag.recipe_book.texts.bestiary\",\"color\":\"black\"},{\"translate\":\"item.acbag.recipe_book.index.shrigma_zombie\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"entity.acbag.shrigma_zombie\"}]},\"clickEvent\":{\"action\":\"change_page\",\"value\":\"######\"}}]']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

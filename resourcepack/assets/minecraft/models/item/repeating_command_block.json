@@ -6,7 +6,7 @@
     "side": "minecraft:block/repeating_command_block_side"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 6900000},"model": "acbag:item/superconductor"},
+    {"predicate": {"custom_model_data": 6900000},"model": "acbag:item/_"},
     {"predicate": {"custom_model_data": 6900001},"model": "acbag:item/enchanted_string"},
     {"predicate": {"custom_model_data": 6900002},"model": "acbag:item/hellfire_dart"},
     {"predicate": {"custom_model_data": 6900003},"model": "acbag:item/feral_claws"},
