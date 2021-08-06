@@ -4,6 +4,7 @@
 		"minecraft:armor_stand",
 		"minecraft:glow_item_frame",
 		"minecraft:arrow",
-		"minecraft:trident"
+		"minecraft:trident",
+		"wandering_trader"
 	]
 }

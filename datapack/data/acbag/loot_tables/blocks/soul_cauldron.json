@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{Invisible:1b,Tags:[\"acbag.soul_cauldron\"]},CustomModelData:6900002,display:{Name:'{\"translate\":\"block.acbag.soul_cauldron\",\"italic\":false}'},ctc:{id:\"soul_cauldron\",from:\"asdru:accessory_bag\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

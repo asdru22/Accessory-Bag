@@ -28,6 +28,7 @@
     {"predicate": {"custom_model_data": 6900021},"model": "acbag:entity/godsent/head"},
     {"predicate": {"custom_model_data": 6900022},"model": "acbag:entity/godsent/arm"},
     {"predicate": {"custom_model_data": 6900023},"model": "acbag:entity/godsent/head_hurt"},
-    {"predicate": {"custom_model_data": 6900024},"model": "acbag:entity/godsent/arm_hurt"}
+    {"predicate": {"custom_model_data": 6900024},"model": "acbag:entity/godsent/arm_hurt"},
+    {"predicate": {"custom_model_data": 6900025},"model": "acbag:block/soul_cauldron"}
 ]
 }

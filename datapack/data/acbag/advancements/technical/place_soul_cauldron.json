@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:item_frame"],
+          "nbt": "{ctc:{id:\"soul_cauldron\",from:\"asdru:accessory_bag\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:block/soul_cauldron/place"
+  }
+}

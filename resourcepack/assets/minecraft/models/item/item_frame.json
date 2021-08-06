@@ -4,11 +4,8 @@
     "layer0": "item/item_frame"
   },
   "overrides": [
-    {
-    "predicate": {
-      "custom_model_data": 6900000
-    },
-    "model": "acbag:block/thinkery_table"
-  }
+    {"predicate": {"custom_model_data": 6900000},"model": "acbag:block/thinkery_table"},
+    {"predicate": {"custom_model_data": 6900001},"model": "acbag:block/soul_cauldron_empty"},
+    {"predicate": {"custom_model_data": 6900002},"model": "acbag:item/soul_cauldron"}
 ]
 }

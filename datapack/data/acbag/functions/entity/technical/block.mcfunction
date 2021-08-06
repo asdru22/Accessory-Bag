@@ -1,0 +1,2 @@
+execute if entity @s[type=glow_item_frame,tag=acbag.thinkery_table] at @s run function acbag:block/thinkery_table/tick
+execute if entity @s[type=wandering_trader,tag=acbag.soul_cauldron] at @s run function acbag:block/soul_cauldron/tick

@@ -6,9 +6,11 @@
   "item.acbag.class": "Class: %s",
 
   "block.acbag.thinkery_table": "Thinkery Table",
-  "block.acbag.thinkery_table.lore1": "The fundamental workbench of this datapack. All recipes shown",
+  "block.acbag.thinkery_table.lore1": "The fundamental workbench of this datapack. All crafting recipes shown",
   "block.acbag.thinkery_table.lore2": "on this book are crafted with this block (except this one).",
   "block.acbag.thinkery_table.gui": "\uf806\uf802\uF01d\uf80d\uf80a\uf808\uf801\uf80d%s",
+  "block.acbag.soul_cauldron": "Soul Cauldron",
+  "block.acbag.soul_cauldron.lore1": "soup",
 
   "item.acbag.accessory_bag": "Accessory Bag",
   "item.acbag.accessory_bag.lore1": "This magical artifact can store up to 64 accessories",

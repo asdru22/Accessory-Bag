@@ -2,7 +2,7 @@
   "parent": "acbag:recipes/nbt/root",
   "rewards": {
     "function": "acbag:entity/player/nbt_recipe",
-    "loot": ["acbag:items/thinkery_table"]
+    "loot": ["acbag:blocks/thinkery_table"]
   },
   "criteria": {
     "has_the_recipe": {

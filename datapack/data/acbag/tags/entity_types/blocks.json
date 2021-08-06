@@ -1,0 +1,7 @@
+{
+	"description": "Entities used for blocks",
+	"values": [
+		"minecraft:glow_item_frame",
+		"minecraft:wandering_trader"
+	]
+}
