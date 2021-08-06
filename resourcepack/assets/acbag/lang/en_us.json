@@ -167,6 +167,8 @@
   "item.acbag.philosopher_stone.lore": "When eating an apple, there's a 50% chance to gain Absorbption I (2:00).",
   "item.acbag.concussive_glove": "Concussive Glove",
   "item.acbag.concussive_glove.lore": "Hitting a mob has a 5% chance for them to drop their held item.",
+  "item.acbag.pruning_shears": "Pruning Shears",
+  "item.acbag.pruning_shears.lore": "Allows you to harvest from grass and leaves",
   
   "item.acbag.blessing.damage": "Damage Blessing",
   "item.acbag.blessing.damage.lore": "Increases Adaptive Blade damage by 3.5",
