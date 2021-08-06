@@ -1,1 +1,1 @@
-execute unless block ~ ~-0.5 ~ soul_campfire run function acbag:block/soul_cauldron/destroy
+execute unless block ~ ~0.5 ~ soul_campfire run function acbag:block/soul_cauldron/destroy

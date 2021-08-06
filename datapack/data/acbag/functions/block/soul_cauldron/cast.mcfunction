@@ -1,0 +1,3 @@
+scoreboard players remove .distance acbag.dummy 1
+execute as @e[type=wandering_trader,dx=0,tag=!acbag.target,tag=acbag.soul_cauldron] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] positioned ~0.7 ~0.7 ~0.7 at @s align xyz if block ~ ~ ~ soul_campfire[lit=true] run function acbag:block/soul_cauldron/success
+execute if score .distance acbag.dummy matches 1.. positioned ^ ^ ^.9 run function acbag:block/soul_cauldron/cast

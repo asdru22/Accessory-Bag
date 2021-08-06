@@ -1,0 +1,2 @@
+execute if data storage acbag:storage root.temp.cauldron{HasWater:1b} run function acbag:block/soul_cauldron/use/main
+execute unless data storage acbag:storage root.temp.cauldron{HasWater:1b} if entity @s[predicate=acbag:item/water_bucket] run function acbag:block/soul_cauldron/use/water_bucket
