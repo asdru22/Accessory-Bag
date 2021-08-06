@@ -1,1 +1,0 @@
-execute as @a[tag=acbag.schedule.yeti] run function acbag:entity/mob/on_hit/custom/yeti/clear

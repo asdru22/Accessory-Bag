@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"acbag.entity.watcher\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:entity/mob/boss/godsent/watcher/kill"
+  }
+}

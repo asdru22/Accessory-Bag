@@ -20,7 +20,7 @@
 },
 {
   "type": "bitmap",
-  "file": "acbag:gui/bossbars/test.png",
+  "file": "acbag:gui/bossbars/godsent.png",
   "ascent": 10,
   "height": 50,
   "chars": [

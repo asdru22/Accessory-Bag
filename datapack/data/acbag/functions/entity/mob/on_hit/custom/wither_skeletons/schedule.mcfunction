@@ -1,0 +1,1 @@
+execute as @a[tag=acbag.schedule.wither_skeletons] run function acbag:entity/mob/on_hit/custom/wither_skeletons/clear

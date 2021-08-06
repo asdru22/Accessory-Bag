@@ -19,6 +19,15 @@
     {"predicate": {"custom_model_data": 6900012},"model": "acbag:entity/yeti/arm"},
     {"predicate": {"custom_model_data": 6900013},"model": "acbag:entity/yeti/head_hurt"},
     {"predicate": {"custom_model_data": 6900014},"model": "acbag:entity/yeti/arm_hurt"},
-    {"predicate": {"custom_model_data": 6900015},"model": "acbag:entity/tornado"}
+    {"predicate": {"custom_model_data": 6900015},"model": "acbag:entity/tornado"},
+    {"predicate": {"custom_model_data": 6900016},"model": "acbag:entity/watcher/head"},
+    {"predicate": {"custom_model_data": 6900017},"model": "acbag:entity/watcher/arm"},
+    {"predicate": {"custom_model_data": 6900018},"model": "acbag:entity/watcher/head_hurt"},
+    {"predicate": {"custom_model_data": 6900019},"model": "acbag:entity/watcher/arm_hurt"},
+    {"predicate": {"custom_model_data": 6900020},"model": "acbag:entity/shadowflame"},
+    {"predicate": {"custom_model_data": 6900021},"model": "acbag:entity/godsent/head"},
+    {"predicate": {"custom_model_data": 6900022},"model": "acbag:entity/godsent/arm"},
+    {"predicate": {"custom_model_data": 6900023},"model": "acbag:entity/godsent/head_hurt"},
+    {"predicate": {"custom_model_data": 6900024},"model": "acbag:entity/godsent/arm_hurt"}
 ]
 }
