@@ -51,6 +51,7 @@
     {"predicate": {"custom_model_data": 6900042},"model": "acbag:item/morphic_gem"},
     {"predicate": {"custom_model_data": 6900043},"model": "acbag:item/pruning_shears"},
     {"predicate": {"custom_model_data": 6900044},"model": "acbag:item/rosemary"},
-    {"predicate": {"custom_model_data": 6900045},"model": "acbag:item/charred_bone"}
+    {"predicate": {"custom_model_data": 6900045},"model": "acbag:item/charred_bone"},
+    {"predicate": {"custom_model_data": 6900046},"model": "acbag:item/diamond_berry"}
 ]
 }

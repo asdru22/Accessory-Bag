@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900046,ctc:{id:\"diamond_berry\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,brewable:1b,brew:{color:51199}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.diamond_berry",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

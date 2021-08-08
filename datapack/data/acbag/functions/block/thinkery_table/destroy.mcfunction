@@ -2,3 +2,5 @@ execute store success score acbag.temp_0 acbag.dummy run kill @e[tag=!global.ign
 execute if score acbag.temp_0 acbag.dummy matches 1.. run loot spawn ~ ~ ~ loot acbag:blocks/thinkery_table
 particle minecraft:item item_frame{CustomModelData:6900000} ~ ~ ~ 0.5 0.6 0.5 0.05 50 normal
 kill @s
+
+kill @e[type=item,distance=..2,nbt={Item:{tag:{acbag:{CraftOutput:1b,GuiFixed:1b}}}}]
