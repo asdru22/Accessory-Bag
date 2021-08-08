@@ -1,4 +1,3 @@
-scoreboard players set .distance acbag.dummy 8
-function acbag:block/soul_cauldron/cast
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:repeating_command_block",tag:{acbag:{brewable:1b}}}}] run function acbag:block/soul_cauldron/hold_brewable
+execute if entity @s[predicate=acbag:item/brewable] run function acbag:block/soul_cauldron/hold_brewable
 advancement revoke @s only acbag:technical/block/soul_cauldron
-tag @e[type=wandering_trader,distance=..10,tag=acbag.target,tag=acbag.soul_cauldron] remove acbag.target

@@ -28,7 +28,10 @@ scoreboard players set acbag.const.20 acbag.dummy 20
 scoreboard players set acbag.const.25 acbag.dummy 25
 scoreboard players set acbag.const.60 acbag.dummy 60
 scoreboard players set acbag.const.100 acbag.dummy 100
+scoreboard players set acbag.const.256 acbag.dummy 256
 scoreboard players set acbag.const.1000 acbag.dummy 1000
+scoreboard players set acbag.const.65536 acbag.dummy 65536
+
 execute unless score acbag.seed acbag.dummy matches -2147483648.. run scoreboard players set acbag.seed acbag.dummy 731031
 scoreboard players set acbag.mult acbag.dummy 1664525
 scoreboard players set acbag.incr acbag.dummy 1013904223

@@ -1,0 +1,3 @@
+execute store result score .count acbag.dummy run data get storage acbag:storage root.temp.cauldron.Items[{id:"minecraft:repeating_command_block",tag:{ctc:{id:"rosemary",from:"asdru:accessory_bag"}}}].Count
+scoreboard players add .count acbag.dummy 1
+execute store result storage acbag:storage root.temp.cauldron.Items[{id:"minecraft:repeating_command_block",tag:{ctc:{id:"rosemary",from:"asdru:accessory_bag"}}}].Count byte 1 run scoreboard players get .count acbag.dummy

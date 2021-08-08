@@ -49,6 +49,8 @@
     {"predicate": {"custom_model_data": 6900040},"model": "acbag:item/leather_glove"},
     {"predicate": {"custom_model_data": 6900041},"model": "acbag:item/lightning_in_a_bottle"},
     {"predicate": {"custom_model_data": 6900042},"model": "acbag:item/morphic_gem"},
-    {"predicate": {"custom_model_data": 6900043},"model": "acbag:item/pruning_shears"}
+    {"predicate": {"custom_model_data": 6900043},"model": "acbag:item/pruning_shears"},
+    {"predicate": {"custom_model_data": 6900044},"model": "acbag:item/rosemary"},
+    {"predicate": {"custom_model_data": 6900045},"model": "acbag:item/charred_bone"}
 ]
 }

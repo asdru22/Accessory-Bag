@@ -1,6 +1,7 @@
 {
     "values": [
         "minecraft:repeating_command_block",
-        "minecraft:water_bucket"
+        "minecraft:water_bucket",
+        "minecraft:glow_berries"
     ]
 }

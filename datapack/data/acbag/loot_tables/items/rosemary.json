@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:6900044,ctc:{id:\"rosemary\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,brewable:1b,brew:{color:4570377}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.rosemary",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

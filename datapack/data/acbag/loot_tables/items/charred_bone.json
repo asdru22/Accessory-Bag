@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:69000045,ctc:{id:\"charred_bone\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,brewable:1b,brew:{color:4570377}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.acbag.charred_bone",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}
