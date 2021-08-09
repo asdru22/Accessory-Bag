@@ -1,1 +1,5 @@
 execute if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:glow_berries"} run data modify storage acbag:storage root.temp.cauldron.tempItem.tag.acbag.brew set value {color:16770560,display:'{"translate":"item.minecraft.glow_berries","color":"white","italic":false}'}
+
+execute if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:sugar"} run data modify storage acbag:storage root.temp.cauldron.tempItem.tag.acbag.brew set value {color:15925245,display:'{"translate":"item.minecraft.sugar","color":"white","italic":false}'}
+
+execute if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:slime_ball"} run data modify storage acbag:storage root.temp.cauldron.tempItem.tag.acbag.brew set value {color:9633635,display:'{"translate":"item.minecraft.slime_ball","color":"white","italic":false}'}

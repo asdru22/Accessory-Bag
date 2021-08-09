@@ -4,6 +4,8 @@
         "minecraft:water_bucket",
         "minecraft:glow_berries",
         "minecraft:wooden_shovel",
-        "minecraft:glass_bottle"
+        "minecraft:glass_bottle",
+        "minecraft:sugar",
+        "minecraft:slime_ball"
     ]
 }
