@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "acbag:items/diamond_berry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "acbag:chance/1"
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Inventory:[{id:\"minecraft:bundle\",tag:{Items:[{id:\"minecraft:repeating_command_block\",tag:{ctc:{id:\"pruning_shears\",from:\"asdru:accessory_bag\"}}}],ctc:{id:\"accessory_bag\",from:\"asdru:accessory_bag\"}}}]}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:sweet_berry_bush",
+          "properties": {
+            "age": "3"
+          }
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 2.0,
+            "max": 3.0
+          },
+          "add": false
+        },
+        {
+          "function": "minecraft:apply_bonus",
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "parameters": {
+            "bonusMultiplier": 1
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:sweet_berry_bush",
+          "properties": {
+            "age": "2"
+          }
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 1.0,
+            "max": 2.0
+          },
+          "add": false
+        },
+        {
+          "function": "minecraft:apply_bonus",
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "parameters": {
+            "bonusMultiplier": 1
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ]
+}

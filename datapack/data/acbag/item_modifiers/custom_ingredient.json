@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "nbt": "root.temp.cauldron.Items[0].tag.display.Name",
+          "storage": "acbag:storage",
+          "interpret": true
+        },
+        {
+          "text": " x"
+        },
+        {
+          "score": {
+            "name": ".count",
+            "objective": "acbag.dummy",
+            "color":"white",
+            "italic":false
+          }
+        }
+      ]
+    ],
+    "replace": false
+  }
+]

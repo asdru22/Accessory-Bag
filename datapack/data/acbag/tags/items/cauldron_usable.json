@@ -2,6 +2,8 @@
     "values": [
         "minecraft:repeating_command_block",
         "minecraft:water_bucket",
-        "minecraft:glow_berries"
+        "minecraft:glow_berries",
+        "minecraft:wooden_shovel",
+        "minecraft:glass_bottle"
     ]
 }

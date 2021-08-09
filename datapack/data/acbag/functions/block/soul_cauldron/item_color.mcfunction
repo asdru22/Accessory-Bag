@@ -1,1 +1,1 @@
-execute if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:glow_berries"} run data modify storage acbag:storage root.temp.cauldron.tempItem.tag.acbag.brew.color set value 16770560
+execute if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:glow_berries"} run data modify storage acbag:storage root.temp.cauldron.tempItem.tag.acbag.brew set value {color:16770560,display:'{"translate":"item.minecraft.glow_berries","color":"white","italic":false}'}
