@@ -1,0 +1,26 @@
+{
+  "display": {
+      "title": {
+          "translate": "advancement.acbag.not_jarring.title",
+          "color": "white"
+      },
+      "description": {
+          "translate": "advancement.acbag.not_jarring.description",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:warped_fungus_on_a_stick",
+          "nbt": "{CustomModelData:6900000}"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "impossible": {
+          "trigger": "minecraft:impossible"
+      }
+  },
+  "parent": "acbag:minecraft/root"
+}

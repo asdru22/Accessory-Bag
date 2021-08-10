@@ -1,0 +1,26 @@
+{
+  "display": {
+      "title": {
+          "translate": "advancement.acbag.sweet_but_edible.title",
+          "color": "white"
+      },
+      "description": {
+          "translate": "advancement.acbag.sweet_but_edible.description",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:potion",
+          "nbt": "{CustomPotionColor:16508429}"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "impossible": {
+          "trigger": "minecraft:impossible"
+      }
+  },
+  "parent": "acbag:minecraft/evolved_brewing"
+}

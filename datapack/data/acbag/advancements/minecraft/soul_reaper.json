@@ -1,0 +1,26 @@
+{
+  "display": {
+      "title": {
+          "translate": "advancement.acbag.soul_reaper.title",
+          "color": "white"
+      },
+      "description": {
+          "translate": "advancement.acbag.soul_reaper.description",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:repeating_command_block",
+          "nbt": "{CustomModelData:6900013}"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "impossible": {
+          "trigger": "minecraft:impossible"
+      }
+  },
+  "parent": "acbag:minecraft/not_jarring"
+}

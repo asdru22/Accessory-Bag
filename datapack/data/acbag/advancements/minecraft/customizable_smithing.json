@@ -1,0 +1,26 @@
+{
+  "display": {
+      "title": {
+          "translate": "advancement.acbag.customizable_smithing.title",
+          "color": "white"
+      },
+      "description": {
+          "translate": "advancement.acbag.customizable_smithing.description",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:bundle",
+          "nbt": "{CustomModelData:6900001}"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "impossible": {
+          "trigger": "minecraft:impossible"
+      }
+  },
+  "parent": "acbag:minecraft/magical_gemstone"
+}

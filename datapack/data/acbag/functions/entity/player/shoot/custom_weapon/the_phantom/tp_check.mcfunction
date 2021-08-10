@@ -1,0 +1,2 @@
+scoreboard players operation .temp acbag.dummy = @s acbag.id
+execute at @s as @a if score @s acbag.id = .temp acbag.dummy if score @s acbag.cAstrolite matches 200.. run function acbag:entity/player/shoot/custom_weapon/the_phantom/tp

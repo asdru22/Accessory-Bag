@@ -8,6 +8,7 @@
       { "predicate": {"custom_model_data": 6900000}, "model": "acbag:item/accessory_bag" },
       { "predicate": {"custom_model_data": 6900000, "filled": 0.0000001 }, "model": "acbag:item/accessory_bag_filled" },
       { "predicate": {"custom_model_data": 6900001}, "model": "acbag:item/adaptive_blade" },
-      { "predicate": {"custom_model_data": 6900001, "filled": 0.0000001 }, "model": "acbag:item/adaptive_blade_filled" }
+      { "predicate": {"custom_model_data": 6900001, "filled": 0.0000001 }, "model": "acbag:item/adaptive_blade_filled" },
+      { "predicate": {"custom_model_data": 6900002}, "model": "acbag:item/accessory_bag_filled" }
   ]
 }

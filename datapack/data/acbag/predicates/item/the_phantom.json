@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "flags": {
+        "is_sneaking": true
+      },
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:bow"
+          ],
+          "nbt": "{ctc:{id:\"the_phantom\",from:\"asdru:accessory_bag\"}}"
+        }
+      }
+    }
+  }
+  

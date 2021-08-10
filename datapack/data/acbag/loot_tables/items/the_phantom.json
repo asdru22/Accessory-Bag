@@ -10,6 +10,27 @@
       ],
       "functions": [
         {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {"text":""},
+            {
+              "translate": "item.acbag.the_phantom.lore1",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.the_phantom.lore2",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "translate": "item.acbag.the_phantom.lore3",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        },
+        {
           "function": "minecraft:set_nbt",
           "tag": "{CustomModelData:6900000,ctc:{id:\"the_phantom\",from:\"asdru:accessory_bag\",traits:{\"weapon/bow\":1b}},acbag:{identifier:1b}}"
         },
@@ -17,7 +38,7 @@
           "function": "minecraft:set_name",
           "name": {
             "translate": "item.acbag.the_phantom",
-            "color": "white",
+            "color": "#FF0000",
             "italic": false
           }
         }

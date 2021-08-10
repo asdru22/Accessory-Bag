@@ -1,0 +1,1 @@
+execute if predicate acbag:item/the_phantom run scoreboard players set .the_phantom acbag.dummy 1
