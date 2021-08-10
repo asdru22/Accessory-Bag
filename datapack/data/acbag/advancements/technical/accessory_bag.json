@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "pick_up_accessory_bag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "nbt": "{ctc:{id:\"accessory_bag\",from:\"asdru:accessory_bag\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:item/accessory_bag/update"
+  }
+}

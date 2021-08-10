@@ -1,0 +1,26 @@
+{
+  "display": {
+      "title": {
+          "translate": "advancement.acbag.spectral_transportations.title",
+          "color": "white"
+      },
+      "description": {
+          "translate": "advancement.acbag.spectral_transportations.description",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:bow",
+          "nbt": "{CustomModelData:6900000}"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "impossible": {
+          "trigger": "minecraft:impossible"
+      }
+  },
+  "parent": "acbag:minecraft/spectral_manipulations"
+}
