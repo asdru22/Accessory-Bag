@@ -65,6 +65,8 @@
   "item.acbag.diamond_berry": "Diamond Berry",
   "item.acbag.odd_mixture": "Odd Mixture",
   "item.acbag.glow_jelly": "Glow Jelly",
+  "item.acbag.voidflow_extract": "Voidflow Extract",
+  "item.acbag.haunted_seeds": "Haunted Seeds",
 
   "item.acbag.hellfire_dart": "Hellfire Dart",
   "item.acbag.hellfire_dart.lore1": "In the Nether, charing a bow for more than 5",
@@ -167,7 +169,7 @@
   "item.acbag.fertility_syphon": "Fertility Syphon",
   "item.acbag.fertility_syphon.lore": "Breeding animals grants 5 astrolites.",
   "item.acbag.voidflow_juice": "Voidflow Juice",
-  "item.acbag.voidflow_juice.lore": "When entering an end portal, you will be teleported to [REDACTED] dimension.",
+  "item.acbag.voidflow_juice.lore": "When entering an end portal, you will be teleported to the spectral plane.",
   "item.acbag.surgical_glove": "Surgical Glove",
   "item.acbag.surgical_glove.lore": "When hit by an arrow, there's a 20% chance to gain an arrow.",
   "item.acbag.vengeful_band": "Vengeful Band",

@@ -6,6 +6,31 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "name": "acbag:items/haunted_seeds"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "acbag:chance/5"
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Inventory:[{id:\"minecraft:bundle\",tag:{Items:[{id:\"minecraft:repeating_command_block\",tag:{ctc:{id:\"pruning_shears\",from:\"asdru:accessory_bag\"}}}],ctc:{id:\"accessory_bag\",from:\"asdru:accessory_bag\"}}}]}",
+            "location": {
+              "dimension": "acbag:spectral_plane"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
           "name": "acbag:items/rosemary"
         }
       ],

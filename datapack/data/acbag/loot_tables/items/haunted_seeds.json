@@ -11,12 +11,12 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:6900017,HideFlags:127,ctc:{id:\"ambrosia\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,brewable:1b,brew:{color:16772613}}}"
+          "tag": "{CustomModelData:6900052,ctc:{id:\"haunted_seeds\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,brewable:1b,brew:{color:9410759}}}"
         },
         {
           "function": "minecraft:set_name",
           "name": {
-            "translate": "item.acbag.ambrosia",
+            "translate": "item.acbag.haunted_seeds",
             "color": "white",
             "italic": false
           }

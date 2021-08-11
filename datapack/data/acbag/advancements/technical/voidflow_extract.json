@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "invis": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{ctc:{id:\"voidflow_extract\",from:\"asdru:accessory_bag\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acbag:item/voidflow_extract/main"
+  }
+}

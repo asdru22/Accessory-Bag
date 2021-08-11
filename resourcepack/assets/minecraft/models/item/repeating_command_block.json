@@ -52,6 +52,12 @@
     {"predicate": {"custom_model_data": 6900043},"model": "acbag:item/pruning_shears"},
     {"predicate": {"custom_model_data": 6900044},"model": "acbag:item/rosemary"},
     {"predicate": {"custom_model_data": 6900045},"model": "acbag:item/charred_bone"},
-    {"predicate": {"custom_model_data": 6900046},"model": "acbag:item/diamond_berry"}
+    {"predicate": {"custom_model_data": 6900046},"model": "acbag:item/diamond_berry"},
+    {"predicate": {"custom_model_data": 6900047},"model": "acbag:item/frostspark"},
+    {"predicate": {"custom_model_data": 6900048},"model": "acbag:item/assassin_emblem"},
+    {"predicate": {"custom_model_data": 6900049},"model": "acbag:item/corrupted_ring"},
+    {"predicate": {"custom_model_data": 6900050},"model": "acbag:item/goblin_ear"},
+    {"predicate": {"custom_model_data": 6900051},"model": "acbag:item/surge_capacitor"},
+    {"predicate": {"custom_model_data": 6900052},"model": "acbag:item/haunted_seeds"}
 ]
 }

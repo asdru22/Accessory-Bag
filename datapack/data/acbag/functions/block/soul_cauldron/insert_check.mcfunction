@@ -11,3 +11,9 @@ execute if score .found acbag.dummy matches 0 if data storage acbag:storage root
 execute if score .found acbag.dummy matches 0 if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:sugar"} run function acbag:block/soul_cauldron/use/sugar/main
 
 execute if score .found acbag.dummy matches 0 if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:slime_ball"} run function acbag:block/soul_cauldron/use/slime_ball/main
+
+execute if score .found acbag.dummy matches 0 if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:repeating_command_block",tag:{ctc:{id:"haunted_seeds",from:"asdru:accessory_bag"}}} run function acbag:block/soul_cauldron/use/haunted_seeds/main
+
+execute if score .found acbag.dummy matches 0 if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:repeating_command_block",tag:{ctc:{id:"ambrosia",from:"asdru:accessory_bag"}}} run function acbag:block/soul_cauldron/use/ambrosia/main
+
+execute if score .found acbag.dummy matches 0 if data storage acbag:storage root.temp.cauldron.tempItem{id:"minecraft:wither_rose"} run function acbag:block/soul_cauldron/use/wither_rose/main
