@@ -12,7 +12,7 @@
       "conditions": [
         {
           "condition": "minecraft:reference",
-          "name": "acbag:chance/1"
+          "name": "acbag:chance/5"
         },
         {
           "condition": "minecraft:entity_properties",

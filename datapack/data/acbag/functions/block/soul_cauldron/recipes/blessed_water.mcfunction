@@ -1,0 +1,2 @@
+scoreboard players set .found acbag.dummy 1
+data modify storage acbag:storage root.temp.Slot set value {id:"minecraft:potion",Count:1b,tag:{HideFlags:127,display:{Name:'{"translate":"item.acbag.blessed_water","italic":false}',Lore:['{"translate":"item.acbag.blessed_water.lore","italic":false,"color":"blue"}']},ctc:{id:"blessed_water",from:"asdru:accessory_bag"},acbag:{brewed:1b}}}

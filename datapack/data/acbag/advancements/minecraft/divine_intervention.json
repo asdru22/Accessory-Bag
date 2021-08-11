@@ -1,0 +1,26 @@
+{
+  "display": {
+      "title": {
+          "translate": "advancement.acbag.divine_intervention.title",
+          "color": "white"
+      },
+      "description": {
+          "translate": "advancement.acbag.divine_intervention.description",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:potion",
+          "nbt": "{CustomPotionColor:4701449}"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "impossible": {
+          "trigger": "minecraft:impossible"
+      }
+  },
+  "parent": "acbag:minecraft/evolved_brewing"
+}

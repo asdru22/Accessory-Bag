@@ -40,6 +40,6 @@
     ]
   ],
   "rewards": {
-    "function": "acbag:entity/player/death/main"
+    "function": "acbag:entity/player/death/keep_inv"
   }
 }

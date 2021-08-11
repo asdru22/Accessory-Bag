@@ -1,0 +1,2 @@
+scoreboard players set .found acbag.dummy 1
+data modify storage acbag:storage root.temp.Slot set value {id:"minecraft:potion",Count:1b,tag:{CustomPotionEffects:[{Id:6b,Amplifier:0b,Duration:20}],display:{Name:'{"translate":"item.acbag.rosemary_brew","italic":false}'},ctc:{id:"rosemary_brew",from:"asdru:accessory_bag"},acbag:{brewed:1b}}}

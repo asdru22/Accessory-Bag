@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:6900041,HideFlags:127,ctc:{id:\"lightning_in_a_bottle\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b}}"
+          "tag": "{CustomModelData:6900041,HideFlags:127,ctc:{id:\"lightning_in_a_bottle\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,brewable:1b,brew:{color:15794065}}}"
         },
         {
           "function": "minecraft:set_name",

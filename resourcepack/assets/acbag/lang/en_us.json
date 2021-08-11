@@ -66,7 +66,12 @@
   "item.acbag.odd_mixture": "Odd Mixture",
   "item.acbag.glow_jelly": "Glow Jelly",
   "item.acbag.voidflow_extract": "Voidflow Extract",
+  "item.acbag.voidflow_extract.lore": "Drink to teleport between Astral Plane and Overworld",
   "item.acbag.haunted_seeds": "Haunted Seeds",
+  "item.acbag.blessed_water": "Blessed Water",
+  "item.acbag.blessed_water.lore": "Drink to preserve your inventory once when dying.",
+  "item.acbag.energy_drink": "Energy Drink",
+  "item.acbag.rosemary_brew": "Rosemary Brew",
 
   "item.acbag.hellfire_dart": "Hellfire Dart",
   "item.acbag.hellfire_dart.lore1": "In the Nether, charing a bow for more than 5",
@@ -495,5 +500,7 @@
   "advancement.acbag.sweet_but_edible.title":"Sweet but Edible",
   "advancement.acbag.sweet_but_edible.description":"Make some Glow Jelly.",
   "advancement.acbag.spectral_transportations.title":"Spectral Transportations",
-  "advancement.acbag.spectral_transportations.description":"Teleport using The Phantom bow."
+  "advancement.acbag.spectral_transportations.description":"Teleport using The Phantom bow.",
+  "advancement.acbag.divine_intervention.title":"Divine Intervention",
+  "advancement.acbag.divine_intervention.description":"Keep your inventory thanks to the Blessed Water."
 }

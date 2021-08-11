@@ -1,26 +1,37 @@
 {
-  "display": {
+    "display": {
+      "icon": {
+        "item": "minecraft:repeating_command_block",
+        "nbt": "{CustomModelData:6900042}"
+      },
       "title": {
-          "translate": "advancement.acbag.magical_gemstone.title",
-          "color": "white"
+        "translate": "advancement.acbag.magical_gemstone.title",
+        "color": "white"
       },
       "description": {
-          "translate": "advancement.acbag.magical_gemstone.description",
-          "color": "green"
-      },
-      "icon": {
-          "item": "minecraft:repeating_command_block",
-          "nbt": "{CustomModelData:6900042}"
+        "translate": "advancement.acbag.magical_gemstone.description",
+        "color": "green"
       },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
-  },
-  "criteria": {
+    },
+    "parent": "acbag:minecraft/hypixel_skyblock",
+    "criteria": {
       "impossible": {
-          "trigger": "minecraft:impossible"
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:repeating_command_block"
+              ],
+              "nbt": "{ctc:{id:\"morphic_gem\",from:\"asdru:accessory_bag\"}}"
+            }
+          ]
+        }
       }
-  },
-  "parent": "acbag:minecraft/hypixel_skyblock"
-}
+    }
+  }
+  
