@@ -4,6 +4,7 @@
     "layer0": "item/warped_fungus_on_a_stick"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 6900000},"model": "acbag:item/jar"}
+    {"predicate": {"custom_model_data": 6900000},"model": "acbag:item/jar"},
+    {"predicate": {"custom_model_data": 6900001},"model": "acbag:item/light_stave"}
 ]
 }

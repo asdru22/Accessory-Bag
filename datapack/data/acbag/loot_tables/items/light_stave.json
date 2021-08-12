@@ -5,19 +5,19 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:repeating_command_block"
+          "name": "minecraft:warped_fungus_on_a_stick"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:6900016,HideFlags:127,ctc:{id:\"eternal_tear\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b}}"
+          "tag": "{CustomModelData:6900001,HideFlags:127,ctc:{id:\"light_stave\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,MagicWeapon:{Cost:20,Damage:5,IgnoreArmor:0b}}}"
         },
         {
           "function": "minecraft:set_name",
           "name": {
-            "translate": "item.acbag.eternal_tear",
-            "color": "white",
+            "translate": "item.acbag.light_stave",
+            "color": "#FF0000",
             "italic": false
           }
         }
