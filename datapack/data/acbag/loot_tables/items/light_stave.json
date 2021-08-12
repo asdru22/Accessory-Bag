@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:6900001,HideFlags:127,ctc:{id:\"light_stave\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,MagicWeapon:{Cost:20,Damage:5,IgnoreArmor:0b}}}"
+          "tag": "{CustomModelData:6900001,HideFlags:127,ctc:{id:\"light_stave\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,MagicWeapon:{Identifier:1b,Cost:20,Damage:5,IgnoreArmor:1b}}}"
         },
         {
           "function": "minecraft:set_name",

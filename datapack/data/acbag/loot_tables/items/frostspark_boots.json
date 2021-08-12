@@ -15,10 +15,7 @@
             {
               "attribute": "minecraft:generic.max_health",
               "name": "",
-              "amount": {
-                "min": 0.5,
-                "max": 1
-              },
+              "amount": 0.5,
               "operation": "addition",
               "slot": "feet"
             }
@@ -32,7 +29,7 @@
           "function": "minecraft:set_name",
           "name": {
             "translate": "item.acbag.frostspark_boots",
-            "color": "white",
+            "color": "#ff0000",
             "italic": false
           }
         }

@@ -1,0 +1,1 @@
+execute if entity @s[tag=!acbag.idset] run function acbag:entity/matching/mob_potential
