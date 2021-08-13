@@ -1,0 +1,4 @@
+data merge entity @s {HandItems:[{id:"minecraft:stick",Count:1b,tag:{CustomModelData:6900029}},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:6900029}}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:9691311}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:9691311}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:9691311}}},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:6900028}}]}
+execute at @s run playsound acbag:entity.sea_goblin.when_hit hostile @a[distance=..10] ~ ~ ~ .5 1.25
+scoreboard players set .found acbag.dummy 1
+tag @s add acbag.entity.mob.hurt
