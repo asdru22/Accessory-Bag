@@ -194,8 +194,8 @@
   "item.acbag.surge_capacitor": "Surge Capacitor",
   "item.acbag.surge_capacitor.lore1": "During thunderstorms, arrows you shoot carry an electric",
   "item.acbag.surge_capacitor.lore2": "charge that jumps across enemies, dealing 2 damage on hit.",
-  "item.acbag.corrupted_ring": "Corupted Ring",
-  "item.acbag.corrupted_ring.lore": "Increases max astrolites by 35, but  reduces regeneration speed by 2.",
+  "item.acbag.corrupted_ring": "Corrupted Ring",
+  "item.acbag.corrupted_ring.lore": "Increases max astrolites by 35, but reduces regeneration speed by 2.",
  
   "item.acbag.blessing.damage": "Damage Blessing",
   "item.acbag.blessing.damage.lore": "Increases Adaptive Blade damage by 3.5",

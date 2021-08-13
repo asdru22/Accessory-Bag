@@ -6,6 +6,7 @@ scoreboard objectives add acbag.cAstrolite dummy
 scoreboard objectives add acbag.mAstrolite dummy
 scoreboard objectives add acbag.pAstrolite dummy
 scoreboard objectives add acbag.light_dmg dummy
+scoreboard objectives add acbag.ks dummy
 
 scoreboard objectives add acbag.manual trigger
 

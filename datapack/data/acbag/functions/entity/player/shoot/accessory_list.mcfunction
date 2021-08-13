@@ -4,3 +4,4 @@ execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"enchanted_str
 execute if entity @s[tag=acbag.ticking.acc.ender_beacon] run function acbag:entity/player/charge/ender_beacon/shoot
 execute if entity @s[tag=acbag.ticking.acc.hellfire_dart] run function acbag:entity/player/charge/hellfire_dart/shoot
 
+execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"surge_capacitor",from:"asdru:accessory_bag"}} if predicate acbag:thundering run scoreboard players set .surge_capacitor acbag.dummy 1

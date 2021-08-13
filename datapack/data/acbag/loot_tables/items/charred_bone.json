@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:69000045,ctc:{id:\"charred_bone\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,brewable:1b,brew:{color:4570377}}}"
+          "tag": "{CustomModelData:6900045,ctc:{id:\"charred_bone\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,brewable:1b,brew:{color:4570377}}}"
         },
         {
           "function": "minecraft:set_name",
