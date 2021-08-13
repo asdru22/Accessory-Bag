@@ -20,7 +20,7 @@
         "damage": {
           "direct_entity": {
             "type": "minecraft:arrow",
-            "nbt": "{Tags:[\"acbag.not_arrow.surge_capacitor\"]}"
+            "nbt": "{Tags:[\"!acbag.arrow.surge_capacitor\"]}"
           }
         },
         "entity": {
