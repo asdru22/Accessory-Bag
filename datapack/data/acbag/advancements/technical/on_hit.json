@@ -1,33 +1,5 @@
 {
   "criteria": {
-    "surge_capacitor": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "damage": {
-          "direct_entity": {
-            "type": "minecraft:arrow",
-            "nbt": "{Tags:[\"acbag.arrow.surge_capacitor\"]}"
-          }
-        },
-        "entity": {
-          "type": "#acbag:mobs"
-        }
-      }
-    },
-    "!surge_capacitor": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "damage": {
-          "direct_entity": {
-            "type": "minecraft:arrow",
-            "nbt": "{Tags:[\"!acbag.arrow.surge_capacitor\"]}"
-          }
-        },
-        "entity": {
-          "type": "#acbag:mobs"
-        }
-      }
-    },
     "mob": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
@@ -1082,10 +1054,6 @@
     [
       "bit31",
       "!bit31"
-    ],
-    [
-      "surge_capacitor",
-      "!surge_capacitor"
     ]
   ],
   "rewards": {

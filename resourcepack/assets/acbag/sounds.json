@@ -14,5 +14,13 @@
       }],
       "subtitle": "subtitles.acbag.entity.yeti.when_hit",
       "category": "master"
+    },
+    "entity.sea_goblin.when_hit": {
+      "sounds": [{
+        "name": "acbag:entity/sea_goblin/when_hit",
+        "stream": true
+      }],
+      "subtitle": "subtitles.acbag.entity.sea_goblin.when_hit",
+      "category": "master"
     }
 }

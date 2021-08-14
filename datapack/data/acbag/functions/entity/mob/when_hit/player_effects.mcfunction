@@ -13,5 +13,6 @@ execute if score .portable_freezer acbag.dummy matches 1 run function acbag:enti
 execute if score .concussive_glove acbag.dummy matches 1 if data entity @s HandItems[0].id unless entity @s[nbt={HandItems:[{id:"minecraft:stick"}]}] run function acbag:entity/player/on_hit/acc/concussive_glove/effect
 #
 execute if score .surge_capacitor acbag.dummy matches 1 run function acbag:entity/player/shoot/acc/surge_capacitor/as_mob
-
+#
+execute if score .pyromancer_blessing acbag.dummy matches 1 run function acbag:entity/player/on_hit/sword/pyromancer_blessing
 execute if score .tar_dispenser acbag.dummy matches 1 if entity @s[predicate=acbag:tar_effect] at @s as @e[type=area_effect_cloud,limit=1,sort=nearest,dx=0,nbt={Effects:[{Id:26b,Amplifier:65b}]}] at @s as @e[type=#acbag:mobs,dx=0,tag=!global.ignore] run function acbag:entity/player/on_hit/acc/tar_dispenser/trigger

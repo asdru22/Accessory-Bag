@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:bundle"
+        ],
+        "nbt": "{Items:[{id:\"minecraft:oak_sign\",tag:{ctc:{id:\"celestial_blessing\",from:\"asdru:accessory_bag\"}}}],ctc:{id:\"adaptive_blade\",from:\"asdru:accessory_bag\"}}"
+      }
+    }
+  }
+}

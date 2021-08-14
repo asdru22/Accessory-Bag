@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "quality": 1,
+          "name": "acbag:items/morphic_gem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "quality": 4,
+          "name": "acbag:items/goblin_ear"
+        }
+      ]
+    }
+  ]
+}

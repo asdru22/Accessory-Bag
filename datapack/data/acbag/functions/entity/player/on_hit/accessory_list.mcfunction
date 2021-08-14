@@ -18,5 +18,5 @@ execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"portable_free
 #
 execute if predicate acbag:chance/5 if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"concussive_glove",from:"asdru:accessory_bag"}} run function acbag:entity/player/on_hit/acc/concussive_glove/enable
 #
-execute if entity @s[advancements={acbag:technical/on_hit={surge_capacitor=true}}] run function acbag:entity/player/shoot/acc/surge_capacitor/hit
+execute if data storage acbag:storage root.temp.bag[].tag{ctc:{id:"surge_capacitor",from:"asdru:accessory_bag"}} if predicate acbag:thundering run function acbag:entity/player/shoot/acc/surge_capacitor/hit
 execute if score .acc acbag.dummy matches 1 run function acbag:item/accessory_bag/display
