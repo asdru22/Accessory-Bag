@@ -18,9 +18,19 @@
       "hidden": false
   },
   "criteria": {
-      "impossible": {
-          "trigger": "minecraft:impossible"
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:repeating_command_block"
+            ],
+            "nbt": "{ctc:{id:\"protoplasm\",from:\"asdru:accessory_bag\"}}"
+          }
+        ]
       }
+    }
   },
   "parent": "acbag:minecraft/soul_reaper"
 }

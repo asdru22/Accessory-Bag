@@ -18,9 +18,19 @@
       "hidden": false
   },
   "criteria": {
-      "impossible": {
-          "trigger": "minecraft:impossible"
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "nbt": "{ctc:{id:\"adaptive_blade\",from:\"asdru:accessory_bag\"}}"
+          }
+        ]
       }
+    }
   },
   "parent": "acbag:minecraft/magical_gemstone"
 }

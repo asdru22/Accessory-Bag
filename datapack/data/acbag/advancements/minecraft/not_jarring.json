@@ -18,9 +18,19 @@
       "hidden": false
   },
   "criteria": {
-      "impossible": {
-          "trigger": "minecraft:impossible"
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{ctc:{id:\"jar\",from:\"asdru:accessory_bag\"}}"
+          }
+        ]
       }
+    }
   },
   "parent": "acbag:minecraft/root"
 }

@@ -18,9 +18,19 @@
       "hidden": false
   },
   "criteria": {
-      "impossible": {
-          "trigger": "minecraft:impossible"
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:item_frame"
+            ],
+            "nbt": "{ctc:{id:\"thinkery_table\",from:\"asdru:accessory_bag\"}}"
+          }
+        ]
       }
+    }
   },
   "parent": "acbag:minecraft/root"
 }

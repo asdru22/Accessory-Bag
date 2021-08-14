@@ -18,9 +18,19 @@
       "hidden": false
   },
   "criteria": {
-      "impossible": {
-          "trigger": "minecraft:impossible"
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:repeating_command_block"
+            ],
+            "nbt": "{ctc:{id:\"voidflow_juice\",from:\"asdru:accessory_bag\"}}"
+          }
+        ]
       }
+    }
   },
   "parent": "acbag:minecraft/bundle_of_joy"
 }
