@@ -35,7 +35,7 @@
         },
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:6900050,HideFlags:127,ctc:{id:\"assassin_emblem\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:4,trigger:\"On Kill\"}}}"
+          "tag": "{CustomModelData:6900048,HideFlags:127,ctc:{id:\"assassin_emblem\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:4,trigger:\"On Kill\"}}}"
         },
         {
           "function": "minecraft:set_name",
