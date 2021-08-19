@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "acbag:item/alchemist_glove"
+		"layer0": "acbag:item/tornado_in_a_bottle"
 	}
 }

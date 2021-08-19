@@ -37,7 +37,7 @@
               "color": "white"
             }
           ]
-        },
+        }, 
         {
           "function": "minecraft:set_nbt",
           "tag": "{CustomModelData:6900032,HideFlags:127,ctc:{id:\"tornado_in_a_bottle\",from:\"asdru:accessory_bag\"},acbag:{identifier:1b,Accessory:{Class:2,trigger:\"Other\"}}}"
