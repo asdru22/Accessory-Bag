@@ -9,6 +9,26 @@ Misode: rng function
 
 
 
+---- Version 0.2.2 ----
+
+
+CHANGELOG:
+
+Fixed bugs:
+- anima conduit, enchanted string, damage meter, portable freezer, concussive glove, voidflow have wrong crafting recipe.
+- Tornado in a Bottle has the Alchemist Glove texture
+- Fixed translation string for Sweeping Blessing in the Manual
+
+
+---- Version 0.2.1 ----
+
+
+CHANGELOG:
+
+Fixed bugs:
+- combat abilities not working
+- gleamerite texture instead of empty spaces textures
+
 
 ---- Version 0.2.0 ----
 
